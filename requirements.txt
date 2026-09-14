@@ -1,0 +1,5 @@
+# Getestet mit Python 3.12 und 3.14 (macOS). pandas 2.2.x läuft nicht auf Python 3.14; deshalb ein Bereich statt einer festen Version.
+pandas>=2.2,<3.1
+openpyxl>=3.1,<4        # nur für .xlsx; streichen, wenn nicht gebraucht
+pdfplumber>=0.11,<1     # liest die Text-PDFs der Testdaten (clean.py) und rendert die Scans in src/synth; bringt pypdfium2 und Pillow mit
+pytest>=8,<9

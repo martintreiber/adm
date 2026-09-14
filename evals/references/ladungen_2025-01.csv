@@ -1,0 +1,42 @@
+rechnung,kartennr,kennzeichen,netz,leistungsklasse,ladevorgaenge,ladedauer_min,blockierdauer_min,freiminuten_min,energie_kwh,preis_je_kwh,betrag_eur
+25018707,146449,WU 18874G,MER Germany GmbH,"über 50kW, DC Ladepunkt",3,95.69,0.0,95.69,92.91,0.74,68.75
+25018707,146449,WU 18874G,Partnerladenetze - Business Park Charging,"max. 11kW, AC Ladepunkt",1,67.26,0.0,67.26,10.26,0.31,3.18
+25018707,146449,WU 18874G,Turmstrom,"über 50kW, DC Ladepunkt",1,163.47,0.0,163.47,103.06,0.54,55.65
+25018707,146449,WU 18874G,Wien Energie,"max. 11kW, AC Ladepunkt",1,49.9,0.0,49.9,7.82,0.66,5.16
+25018707,146449,WU 18874G,Energie Steiermark,"max. 11kW, AC Ladepunkt",1,454.68,38.62,416.06,57.68,0.66,41.16
+25018707,146449,WU 18874G,has-to-be,"max. 22kW, AC Ladepunkt",3,843.69,0.0,843.69,112.89,0.66,74.51
+25018707,162236,L 54887V,Energie Steiermark,"max. 11kW, AC Ladepunkt",6,2015.99,0.0,2015.99,224.62,0.66,148.25
+25018707,162236,L 54887V,Partnerladenetze - Business Park Charging,"max. 11kW, AC Ladepunkt",3,118.32,0.0,118.32,29.24,0.31,9.06
+25018707,162236,L 54887V,MER Germany GmbH,"über 50kW, DC Ladepunkt",2,37.33,0.0,37.33,39.79,0.74,29.44
+25018707,154040,P 247PB,ÖBB Infrastruktur AG,"max. 3,7kW, AC Ladepunkt",3,1404.36,0.0,1404.36,94.61,0.46,43.52
+25018707,154040,P 247PB,Ionity,"über 50kW, DC Ladepunkt",5,113.09,0.0,113.09,186.47,0.74,137.99
+25018707,154040,P 247PB,EVN,"über 50kW, DC Ladepunkt",5,14.5,11.24,3.26,21.03,0.74,17.47
+25018707,154040,P 247PB,MER Germany GmbH,"über 50kW, DC Ladepunkt",3,269.32,0.0,269.32,151.74,0.74,112.29
+25018707,154040,P 247PB,Wien Energie,"max. 50kW, DC Ladepunkt",1,352.88,0.0,352.88,119.52,0.74,88.44
+25018707,154040,P 247PB,Turmstrom,"max. 50kW, DC Ladepunkt",3,231.1,0.0,231.1,128.83,0.54,69.57
+25018707,143972,SL 955AZ,Wien Energie,"max. 11kW, AC Ladepunkt",1,449.22,0.0,449.22,102.94,0.66,67.94
+25018707,143972,SL 955AZ,Turmstrom,"über 50kW, DC Ladepunkt",5,102.47,0.0,102.47,148.67,0.54,80.28
+25018707,177762,S 41937C,Energie Steiermark,"max. 11kW, AC Ladepunkt",1,72.2,22.07,50.13,17.3,0.66,13.19
+25018707,177762,S 41937C,MER Germany GmbH,"über 50kW, DC Ladepunkt",5,295.72,0.0,295.72,165.48,0.74,122.46
+25018707,177762,S 41937C,Partnerladenetze - Business Park Charging,"max. 11kW, AC Ladepunkt",1,552.4,38.85,513.55,94.77,0.31,32.49
+25018707,177762,S 41937C,Wien Energie,"max. 11kW, AC Ladepunkt",1,31.12,0.0,31.12,3.63,0.66,2.4
+25018707,177762,S 41937C,Ionity,"über 50kW, DC Ladepunkt",2,71.25,0.0,71.25,65.79,0.74,48.68
+25018707,177762,S 41937C,Turmstrom,"über 50kW, DC Ladepunkt",2,173.03,0.0,173.03,143.1,0.54,77.27
+25018707,152556,MD 728XS,Partnerladenetze - Business Park Charging,"max. 11kW, AC Ladepunkt",1,354.84,24.03,330.81,50.41,0.31,17.55
+25018707,152556,MD 728XS,EVN,"über 50kW, DC Ladepunkt",1,17.57,0.0,17.57,26.57,0.74,19.66
+25018707,175339,,Partnerladenetze - Business Park Charging,"max. 11kW, AC Ladepunkt",2,154.22,0.0,154.22,21.23,0.31,6.58
+25018707,175339,,MER Germany GmbH,"über 50kW, DC Ladepunkt",4,14.3,0.0,14.3,23.09,0.74,17.09
+25018707,173695,MD 32157W,Partnerladenetze - Business Park Charging,"max. 11kW, AC Ladepunkt",1,52.53,32.89,19.64,9.88,0.31,5.69
+25018707,173695,MD 32157W,Turmstrom,"über 50kW, DC Ladepunkt",1,12.56,0.0,12.56,11.01,0.54,5.95
+25018707,173695,MD 32157W,ÖBB Infrastruktur AG,"max. 11kW, AC Ladepunkt",1,480.27,0.0,480.27,64.52,0.46,29.68
+25018707,173695,MD 32157W,Ionity,"über 50kW, DC Ladepunkt",1,20.45,0.0,20.45,17.8,0.74,13.17
+25018707,173695,MD 32157W,has-to-be,"max. 22kW, AC Ladepunkt",1,94.61,0.0,94.61,11.56,0.66,7.63
+25018707,173695,MD 32157W,Energie Steiermark,"max. 11kW, AC Ladepunkt",2,60.79,20.03,40.76,14.45,0.66,11.14
+25018707,167759,I 36683J,Turmstrom,"über 50kW, DC Ladepunkt",4,46.04,0.0,46.04,32.63,0.54,17.62
+25018707,167759,I 36683J,MER Germany GmbH,"über 50kW, DC Ladepunkt",2,142.95,0.0,142.95,126.24,0.74,93.42
+25018707,167759,I 36683J,EVN,"max. 50kW, DC Ladepunkt",2,11.22,0.0,11.22,7.47,0.74,5.53
+25018707,167759,I 36683J,Energie Steiermark,"max. 11kW, AC Ladepunkt",2,388.29,7.09,381.2,95.95,0.66,63.9
+25018707,167759,I 36683J,Wien Energie,"max. 11kW, AC Ladepunkt",1,276.01,0.0,276.01,49.74,0.66,32.83
+25018707,167759,I 36683J,Partnerladenetze - Business Park Charging,"max. 11kW, AC Ladepunkt",1,32.27,7.7,24.57,6.26,0.31,2.56
+25018707,170976,K 32354T,Ionity,"über 50kW, DC Ladepunkt",1,103.3,0.0,103.3,103.48,0.74,76.58
+25018707,170976,K 32354T,ÖBB Infrastruktur AG,"max. 11kW, AC Ladepunkt",5,367.17,0.0,367.17,88.47,0.46,40.7

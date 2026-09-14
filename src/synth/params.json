@@ -1,0 +1,1035 @@
+{
+ "quelle": "Flottenstammdaten, 691 Zeilen, 91 Spalten; aggregiert, keine Einzelwerte",
+ "n": 691,
+ "header": [
+  "Objektnr. \nLP",
+  "Kunden nummer",
+  "Fahrzeugeigentümer",
+  "ausliefernder Händler",
+  "CO² lt. Her-steller nach WLTP",
+  "kW\n(P2)",
+  "Gewicht\n(G)",
+  "NRGkick Dinitech",
+  "Objektnr. Leasing supplier",
+  "Antrieb",
+  "Fahrzeug Typ",
+  "Kennzeichen",
+  "Marke",
+  "Modell",
+  "VST abzugs-fähig",
+  "Fahrer (Nach- und Vorname)",
+  "In-Country Manager*in (Nach- und Vorname)",
+  "km Laufleistung gesamt",
+  "Laufzeit Vertragsabschluss",
+  "Mehrkilometer",
+  "Minderkilometerr",
+  "Mehrtage",
+  "Mindertage",
+  "Freikilometer",
+  "Vertragsgebühr",
+  "monatliche Fee exkl. UST in Service Rate enthalten",
+  "Motorbezogene Versicherungssteuer",
+  "Haftpflichtversicherung",
+  "Vollkaskoversicherung",
+  "Polizzennummer\nWiener Städtische\nAllianz",
+  " km-Stand per 31.03.2017 ",
+  " km-Stand per 31.12.2018 ",
+  " km-Stand per 31.12.2019  bzw. Rückgabe vorher ",
+  " km-Stand per 30.03.2020 ",
+  " km-Stand per 30.09.2020 ",
+  " km-Stand per 31.12.2020  bzw. Rückgabe vorher ",
+  " km-Stand per 31.03.2021 ",
+  " km-Stand per 30.09.2021 ",
+  " km-Stand per 31.12.2021 ",
+  " km-Stand per 31.03.2022 ",
+  " km-Stand per 30.09.2022 ",
+  " km-Stand per 31.12.2022 ",
+  " km-Stand per 31.03.2023 ",
+  " km-Stand per 30.09.2023 ",
+  " km-Stand per 31.03.2024 ",
+  " km-Stand per 30.09.2024 ",
+  " km-Stand per 31.12.2024 ",
+  " km-Stand per 30.09.2025 ",
+  " km-Stand per 31.12.2025 ",
+  " durchschnittl. Km/Monat ",
+  " Hochrechnung KM Stand Vertagsende - Stand Oktober 2025 ",
+  " Abweichung der KM zum abgeschlosenen Vertrag bei Vertragsende Stand Oktober 2025 ohne Berücksichtigung von Frei KM ",
+  " Vetrag verlängert ",
+  "Fahrer-kategorie",
+  "Ladung@home",
+  "ARE\nP58",
+  "Cost Center",
+  "Cost Center NEU ab 1.10.2024",
+  "BU\nCF Depht\nStructure",
+  "Status",
+  "Rotes Kennzeichen",
+  "Reifen Depot",
+  "§57a Überprüfung",
+  "Restlaufzeit Monate\nVertragsende Jetzt",
+  "Beschaffung Start",
+  "vorauss. Liefertermin",
+  "Datum \nErst-zulassung",
+  "An-/Ummelde\ndatum",
+  "Übergabe-datum",
+  "HR-Meldung erledigt",
+  "Benützungs bewilligung ausgestellt",
+  "ZLSchNr.",
+  "abge-\nmeldet \nper",
+  " Kosten Minderwertgutachten ",
+  " letzter bekannter km-Stand ( lt. Minderwertgutachten) ",
+  " km Differenz zu Vertrag ",
+  " Schlussrechnung gesamt ",
+  "Bemerkung",
+  " AW inkl. MwSt. u Nova ",
+  " Anteil Privat-nutzung\nLOA 0082 ",
+  " red.  Sach-bezug\nLOA 5750 ",
+  "VIN Number",
+  "Vertrags-beginn",
+  "Vertragsende Effektiv inkl. Änderungen",
+  "Vertragsende ursprünglich",
+  " Gesamt-kosten exkl. MwSt ",
+  " Funding/\nFinance Lease\n(incl. Executory Costs) ",
+  " Service Rate (non finance lease rate) ",
+  "IFA Number",
+  "IFRS16 FLEET relevant",
+  "Sublease Type"
+ ],
+ "kategorien": {
+  "Fahrzeugeigentümer": {
+   "Leaseplan": 258,
+   "Ayvens": 167,
+   "Arval": 163,
+   "SHS": 101,
+   "LeasePlan": 1,
+   "Raiffeisen Leasing": 1
+  },
+  "Antrieb": {
+   "D": 563,
+   "E": 99,
+   "H/B": 16,
+   "B": 7,
+   "": 4,
+   "H/D": 2
+  },
+  "Fahrzeug Typ": {
+   "": 345,
+   "ICE": 234,
+   "BEV": 99,
+   "PHEV": 13
+  },
+  "Marke": {
+   "VW": 153,
+   "BMW": 140,
+   "SKODA": 122,
+   "OPEL": 66,
+   "MERCEDES": 55,
+   "AUDI": 53,
+   "PEUGEOT": 23,
+   "VOLVO": 21,
+   "Polestar": 20,
+   "SEAT": 20,
+   "FORD": 17,
+   "MINI": 1
+  },
+  "VST abzugs-fähig": {
+   "B": 535,
+   "N": 156
+  },
+  "km Laufleistung gesamt": {
+   "": 174,
+   "90 000": 122,
+   "120 000": 116,
+   "160 000": 31,
+   "180 000": 31,
+   "150 000": 23,
+   "200 000": 19,
+   "140 000": 14,
+   "100 000": 6,
+   "175 000": 6,
+   "135 000": 5,
+   "125 000": 5,
+   "80 000": 3,
+   "199 980": 3,
+   "99 984": 3,
+   "75 000": 3,
+   "197 069": 2,
+   "120 024": 2,
+   "79 992": 2,
+   "60 000": 2,
+   "124 980": 2,
+   "85 000": 2,
+   "96 000": 2,
+   "170 000": 2,
+   "104 000": 2,
+   "85 200": 2,
+   "162 500": 2,
+   "105 000": 2,
+   "170 016": 1,
+   "154 000": 1,
+   "44 800": 1,
+   "119 600": 1,
+   "130 000": 1,
+   "175 020": 1,
+   "160 020": 1,
+   "105 300": 1,
+   "58 500": 1,
+   "104 832": 1,
+   "129 024": 1,
+   "57 024": 1,
+   "132 000": 1,
+   "190 020": 1,
+   "162 200": 1,
+   "88 512": 1,
+   "142 500": 1,
+   "79 980": 1,
+   "145 000": 1,
+   "169 980": 1,
+   "177 000": 1,
+   "78 000": 1,
+   "103 776": 1,
+   "100 020": 1,
+   "175 500": 1,
+   "107 520": 1,
+   "109 980": 1,
+   "130 020": 1,
+   "149 500": 1,
+   "108 052": 1,
+   "137 020": 1,
+   "89 980": 1,
+   "149 982": 1,
+   "90 020": 1,
+   "105 024": 1,
+   "130 075": 1,
+   "101 332": 1,
+   "89 994": 1,
+   "81 495": 1,
+   "78 532": 1,
+   "87 486": 1,
+   "99 944": 1,
+   "79 704": 1,
+   "74 137": 1,
+   "88 776": 1,
+   "115 650": 1,
+   "111 672": 1,
+   "94 500": 1,
+   "87 984": 1,
+   "70 119": 1,
+   "166 032": 1,
+   "116 016": 1,
+   "86 830": 1,
+   "93 744": 1,
+   "57 190": 1,
+   "149 976": 1,
+   "88 457": 1,
+   "86 121": 1,
+   "75 024": 1,
+   "100 011": 1,
+   "133 680": 1,
+   "173 200": 1,
+   "206 000": 1,
+   "140 250": 1,
+   "127 200": 1,
+   "108 000": 1,
+   "182 625": 1,
+   "45 000": 1,
+   "203 400": 1,
+   "140 125": 1,
+   "134 000": 1,
+   "161 700": 1,
+   "149 508": 1,
+   "156 000": 1,
+   "181 200": 1,
+   "189 000": 1,
+   "225 200": 1,
+   "137 500": 1,
+   "115 000": 1,
+   "190 000": 1,
+   "195 000": 1,
+   "91 350": 1,
+   "104 976": 1,
+   "63 036": 1,
+   "88 351": 1,
+   "107 100": 1,
+   "117 600": 1,
+   "139 800": 1,
+   "91 488": 1,
+   "73 320": 1,
+   "111 000": 1,
+   "210 000": 1,
+   "192 000": 1,
+   "170 083": 1,
+   "159 600": 1,
+   "184 250": 1,
+   "159 984": 1,
+   "110 000": 1,
+   "165 000": 1,
+   "110 400": 1,
+   "176 016": 1,
+   "65 844": 1,
+   "78 240": 1
+  },
+  "Laufzeit Vertragsabschluss": {
+   "": 196,
+   "48": 161,
+   "60": 53,
+   "72": 24,
+   "36": 23,
+   "42": 15,
+   "50": 13,
+   "40": 11,
+   "39": 11,
+   "37": 10,
+   "46": 10,
+   "49": 9,
+   "43": 8,
+   "38": 8,
+   "41": 8,
+   "58": 8,
+   "53": 7,
+   "54": 7,
+   "51": 7,
+   "44": 7,
+   "35": 7,
+   "57": 6,
+   "63": 6,
+   "65": 5,
+   "47": 5,
+   "34": 5,
+   "33": 5,
+   "52": 4,
+   "61": 4,
+   "55": 4,
+   "32": 4,
+   "45": 4,
+   "59": 4,
+   "62": 3,
+   "75": 3,
+   "31": 3,
+   "77": 2,
+   "70": 2,
+   "69": 2,
+   "56": 2,
+   "71": 2,
+   "64": 2,
+   "78": 1,
+   "81": 1,
+   "14": 1,
+   "68": 1,
+   "74": 1,
+   "80": 1,
+   "84": 1,
+   "A40595440": 1,
+   "66": 1,
+   "25": 1,
+   "20": 1
+  },
+  "Freikilometer": {
+   "7 500": 351,
+   "": 175,
+   "10 000": 165
+  },
+  "Vetrag verlängert": {
+   "": 620,
+   "Ja": 71
+  },
+  "Fahrer-kategorie": {
+   "VF - CS": 387,
+   "VF": 176,
+   "VF - S": 73,
+   "SM": 16,
+   "DW": 15,
+   "DW +": 11,
+   "GF": 7,
+   "Pool": 6
+  },
+  "Ladung@home": {
+   "": 580,
+   "X": 56,
+   "nein": 36,
+   "Ja": 11,
+   "x": 5,
+   "Nein": 2,
+   "ja": 1
+  },
+  "ARE P58": {
+   "431M": 545,
+   "534S": 141,
+   "431m": 5
+  },
+  "Status": {
+   "inaktiv": 451,
+   "aktiv": 237,
+   "in Bestellung": 3
+  },
+  "Rotes Kennzeichen": {
+   "": 658,
+   "Ja": 33
+  },
+  "IFRS16 FLEET relevant": {
+   "NEIN": 429,
+   "Ja": 236,
+   "Bestand - verkauft": 14,
+   "nein": 8,
+   "NEU 2026": 3,
+   "Nein": 1
+  },
+  "Sublease Type": {
+   "Sublease as Operate Lease": 531,
+   "": 106,
+   "No Sublease": 54
+  },
+  "Benützungs bewilligung ausgestellt": {
+   "": 454,
+   "Ja": 237
+  },
+  "monatliche Fee exkl. UST in Service Rate enthalten": {
+   "": 366,
+   "12": 189,
+   "16": 108,
+   "10": 22,
+   "13,34": 6
+  }
+ },
+ "modelle_je_marke": {
+  "MERCEDES": {
+   "Klasse 6 - CLA200d": 9,
+   "Klasse E 9 - Mercedes EQB 250+": 8,
+   "CLA 200d": 4,
+   "CLA 180d": 3,
+   "C 180": 3,
+   "CLA 220d": 2,
+   "CLA 200d Shooting Brake": 2,
+   "C 200": 2,
+   "GLA 250e DCT": 1,
+   "E 300de T 4-matic": 1,
+   "GLA 180": 1,
+   "GLA 200d": 1,
+   "GLC 350e 4MATIC": 1,
+   "C180DT": 1,
+   "E200": 1,
+   "A 180d": 1,
+   "CLA": 1,
+   "C 200d Kombi": 1,
+   "C 180 d Austria Edition Limousine": 1,
+   "A 200d": 1,
+   "C 200d": 1,
+   "GLC 300de 4matic": 1,
+   "CLA 180d Shooting Brake Kombi": 1,
+   "CLA 220 d 4MATIC": 1,
+   "CLA 200d 4 matic": 1,
+   "GLC  220d 4MATIC": 1,
+   "A180d": 1,
+   "A160d": 1,
+   "CLA Shooting Brake": 1,
+   "CLA A180d Shooting Brake": 1
+  },
+  "AUDI": {
+   "Klasse 7.1 - A4 Avant": 13,
+   "A4 AVANT": 10,
+   "A5": 6,
+   "A4 AVANT 35 TDI s Line": 2,
+   "A6 Avant": 2,
+   "A4": 2,
+   "A6 Avant 35 TDI": 1,
+   "A5 Sportback 35 TDI S line": 1,
+   "A4  Avant 35 TDI S-Line": 1,
+   "Q8 e-Tron": 1,
+   "Q5 55 TFSI e": 1,
+   "Q5 40": 1,
+   "A4 Avant 30 TDI": 1,
+   "Klasse 7 - A4 quattro": 1,
+   "A4 QUATTRO": 1,
+   "A4 Avant": 1,
+   "Q2": 1,
+   "Q5": 1,
+   "A3 SPORTBACK 30 TDI": 1,
+   "A6 quattro": 1,
+   "A4 quattro": 1,
+   "Q5 35 TDI intense": 1,
+   "A3": 1,
+   "A3 SPORTBACK": 1
+  },
+  "VW": {
+   "Klasse E 7 - VW ID.7 Tourer Pro S": 23,
+   "PASSAT VARIANT": 23,
+   "SHARAN": 17,
+   "TOURAN": 16,
+   "Klasse 3 - Passat": 13,
+   "Klasse 4.1 - Touran": 9,
+   "PASSAT": 9,
+   "Klasse 2.3 - GOLF Variant": 5,
+   "MULTIVAN": 4,
+   "TIGUAN": 4,
+   "CADDY MAXI VAN": 3,
+   "Klasse 4 - Touran": 3,
+   "ARTEON": 3,
+   "GOLF": 2,
+   "ID.3 Pro": 2,
+   "ARTEON SB R-Line": 2,
+   "PASSAT -  VR": 2,
+   "CADDY 4 motion VAN": 1,
+   "Klasse E 1 - ID4": 1,
+   "Caddy Maxi TDI 4MOTION": 1,
+   "Klasse E 1.1 - ID4 - 4motion": 1,
+   "TIGUAN Allspace 4MOTION": 1,
+   "PASSAT Siemens Edition": 1,
+   "Touran Family": 1,
+   "Touran 6 Gang Siemens": 1,
+   "GOLF PLUS": 1,
+   "PASSAT HYBRID": 1,
+   "T-CROSS TSI": 1,
+   "CADDY": 1,
+   "TOUAREG": 1
+  },
+  "Polestar": {
+   "Klasse E 3 - Polestar 2": 20
+  },
+  "SKODA": {
+   "Klasse 1 - Octavia": 43,
+   "SUPERB": 34,
+   "OCTAVIA": 19,
+   "Klasse E 2 - ENYAQ 85x": 11,
+   "KODIAQ": 2,
+   "KAROQ": 2,
+   "Octavia Style": 2,
+   "Klasse E 2 - ENYAQ iV 80": 1,
+   "Octavia 4x4": 1,
+   "Octavia (Schalter)": 1,
+   "OCTAVIA 4x4": 1,
+   "SUPERB Combi 1, 6 TDI Style": 1,
+   "KAROQ 4x4": 1,
+   "Kodiaq 4x4": 1,
+   "Superb": 1,
+   "SUBERB": 1
+  },
+  "FORD": {
+   "GALAXY": 6,
+   "Kuga": 2,
+   "TOURNEO CONNECT": 2,
+   "KUGA": 2,
+   "MONDEO": 2,
+   "Tourneo Connect AWD": 1,
+   "GRAND TOURNEO CONNECT": 1,
+   "MONDEO 2019.5 TRAVELLER HYBRID TITANIUM": 1
+  },
+  "BMW": {
+   "Klasse E 10 - BMW i4 xDrive40": 14,
+   "Klasse 5 - X1 16d sDrive": 12,
+   "X1": 10,
+   "Klasse E 6 - BMW iX3 - Inspiring": 8,
+   "X1 18d sDrive": 8,
+   "Klasse 9 - X3 20d xDrive": 7,
+   "Klasse E 5 - BMW iX1 eDrive 20": 6,
+   "318d": 6,
+   "Klasse 5.1 - X1 16d sDrive": 5,
+   "418d": 4,
+   "Klasse E 10.1 - BMW i4 eDrive40": 3,
+   "X1 16d sDrive": 3,
+   "X3 30e": 3,
+   "316d Touring": 3,
+   "520d xDrive Touring": 2,
+   "520d Touring": 2,
+   "318d Gran Turismo": 2,
+   "520d": 2,
+   "418d  Gran Coupe": 2,
+   "X2": 2,
+   "320d": 2,
+   "X1 sDrive": 2,
+   "X3": 2,
+   "520d xDrive": 2,
+   "218d": 2,
+   "520d  Touring": 1,
+   "530d xDrive": 1,
+   "518d Touring": 1,
+   "320d xDrive": 1,
+   "330d": 1,
+   "216d": 1,
+   "420d": 1,
+   "420d Gran Coupe": 1,
+   "320d Gran Turismo": 1,
+   "X1 18d xDrive": 1,
+   "540i xDrive": 1,
+   "328i Touring": 1,
+   "320d TOURING": 1,
+   "530e xDrive Limousine G30 XB1": 1,
+   "X1 20d sDrive": 1,
+   "520d xDrive Luxury": 1,
+   "M340d": 1,
+   "320d xDrive Touring": 1,
+   "520 xDrive Limousine": 1,
+   "520d xDrive M-Sport": 1,
+   "X4 xDrive 20d": 1,
+   "530d": 1,
+   "116d": 1,
+   "316d": 1,
+   "528 I": 1,
+   "216 d": 1
+  },
+  "SEAT": {
+   "ALHAMBRA": 17,
+   "LEON Kombi": 1,
+   "ATECA": 1,
+   "EXEO ST - VR": 1
+  },
+  "MINI": {
+   "Cooper S ALL 4 Countryman": 1
+  },
+  "OPEL": {
+   "ASTRA WF": 16,
+   "ZAFIRA WF": 11,
+   "INSIGNIA": 9,
+   "ASTRA SPORTS TOURER": 8,
+   "ASTRA": 8,
+   "ZAFIRA": 3,
+   "Klasse 2 - Astra": 2,
+   "ZAFIRA TOURER": 2,
+   "Astra Siemens Edition": 1,
+   "Grandland X": 1,
+   "Astra": 1,
+   "GRANDLAND X": 1,
+   "Astra ST 1.5CDTI 105 Ultimate": 1,
+   "Grandland X Ultimate 1.5Cdti BlueInjection": 1,
+   "Grandland X 1,5 CDTI": 1
+  },
+  "VOLVO": {
+   "XC60": 3,
+   "V90": 3,
+   "V60": 2,
+   "V60 T8 TWIN ENGINE R-DESIGN": 2,
+   "XC60 AWD B4 Momentum Pro": 1,
+   "V40": 1,
+   "S90": 1,
+   "XC60 Twin Engine": 1,
+   "V90 D5 AWD GEARTRONIC INSCRIPTION": 1,
+   "V60 T8 TWIN ENGINE INSCRIPTION": 1,
+   "V90 D4": 1,
+   "V60 D4 Geartronic Momentum Pro": 1,
+   "V60 Momentum PRO T Twin Engine": 1,
+   "V60 T6 R-Design": 1,
+   "V60 T6 AWD RECHARGE INSCRIPTION EXPRESSION": 1
+  },
+  "PEUGEOT": {
+   "5008": 5,
+   "308 SW": 5,
+   "508 SW": 4,
+   "508": 3,
+   "3008": 2,
+   "308": 1,
+   "5008 SUV Allure": 1,
+   "Traveller": 1,
+   "5008 1,5 BlueHDi": 1
+  }
+ },
+ "numerisch": {
+  "CO² lt. Her-steller nach WLTP": {
+   "n": 332,
+   "fehlend": 0.52,
+   "quantile": {
+    "0.0": 0.0,
+    "0.1": 0.0,
+    "0.25": 0.0,
+    "0.5": 123.0,
+    "0.75": 135.0,
+    "0.9": 141.0,
+    "1.0": 191.0
+   }
+  },
+  "kW (P2)": {
+   "n": 509,
+   "fehlend": 0.263,
+   "quantile": {
+    "0.0": 68.0,
+    "0.1": 85.0,
+    "0.25": 89.0,
+    "0.5": 110.0,
+    "0.75": 110.0,
+    "0.9": 140.0,
+    "1.0": 250.0
+   }
+  },
+  "Gewicht (G)": {
+   "n": 97,
+   "fehlend": 0.86,
+   "quantile": {
+    "0.0": 1824.0,
+    "0.1": 2060.8,
+    "0.25": 2146.0,
+    "0.5": 2185.0,
+    "0.75": 2217.0,
+    "0.9": 2217.0,
+    "1.0": 2637.0
+   }
+  },
+  "Mehrkilometer": {
+   "n": 414,
+   "fehlend": 0.401,
+   "quantile": {
+    "0.0": 0.0194,
+    "0.1": 0.0805,
+    "0.25": 0.0973,
+    "0.5": 0.1326,
+    "0.75": 0.1873,
+    "0.9": 0.2262,
+    "1.0": 0.868
+   }
+  },
+  "Minderkilometerr": {
+   "n": 414,
+   "fehlend": 0.401,
+   "quantile": {
+    "0.0": 0.0115,
+    "0.1": 0.0545,
+    "0.25": 0.0708,
+    "0.5": 0.0912,
+    "0.75": 0.1202,
+    "0.9": 0.1555,
+    "1.0": 0.868
+   }
+  },
+  "Mindertage": {
+   "n": 467,
+   "fehlend": 0.324,
+   "quantile": {
+    "0.0": 0.0,
+    "0.1": 0.0,
+    "0.25": 0.0,
+    "0.5": 0.0,
+    "0.75": 13.39,
+    "0.9": 17.198,
+    "1.0": 29.64
+   }
+  },
+  "Vertragsgebühr": {
+   "n": 364,
+   "fehlend": 0.473,
+   "quantile": {
+    "0.0": 0.0,
+    "0.1": 71.364,
+    "0.25": 103.0,
+    "0.5": 141.89,
+    "0.75": 182.7525,
+    "0.9": 226.329,
+    "1.0": 362.51
+   }
+  },
+  "Motorbezogene Versicherungssteuer": {
+   "n": 532,
+   "fehlend": 0.23,
+   "quantile": {
+    "0.0": 18.0,
+    "0.1": 35.34,
+    "0.25": 40.315,
+    "0.5": 50.025,
+    "0.75": 57.1275,
+    "0.9": 77.295,
+    "1.0": 169.2
+   }
+  },
+  "Kosten Minderwertgutachten": {
+   "n": 247,
+   "fehlend": 0.643,
+   "quantile": {
+    "0.0": 75.0,
+    "0.1": 474.338,
+    "0.25": 860.985,
+    "0.5": 1366.22,
+    "0.75": 2319.62,
+    "0.9": 3069.834,
+    "1.0": 38139.61
+   }
+  },
+  "Schlussrechnung gesamt": {
+   "n": 54,
+   "fehlend": 0.922,
+   "quantile": {
+    "0.0": -3823.32,
+    "0.1": 379.211,
+    "0.25": 1129.6525,
+    "0.5": 1995.505,
+    "0.75": 3154.1375,
+    "0.9": 4851.343,
+    "1.0": 20030.62
+   }
+  },
+  "AW inkl. MwSt. u Nova": {
+   "n": 689,
+   "fehlend": 0.003,
+   "quantile": {
+    "0.0": 16666.31,
+    "0.1": 23944.2,
+    "0.25": 28600.43,
+    "0.5": 33916.35,
+    "0.75": 44811.0,
+    "0.9": 53980.08,
+    "1.0": 87000.0
+   }
+  },
+  "Anteil Privat-nutzung LOA 0082": {
+   "n": 667,
+   "fehlend": 0.035,
+   "quantile": {
+    "0.0": 9.42,
+    "0.1": 130.16,
+    "0.25": 215.0,
+    "0.5": 291.61,
+    "0.75": 369.945,
+    "0.9": 450.99,
+    "1.0": 832.57
+   }
+  },
+  "red. Sach-bezug LOA 5750": {
+   "n": 577,
+   "fehlend": 0.165,
+   "quantile": {
+    "0.0": 10.72,
+    "0.1": 95.622,
+    "0.25": 146.92,
+    "0.5": 206.84,
+    "0.75": 295.09,
+    "0.9": 469.556,
+    "1.0": 960.0
+   }
+  },
+  "Gesamt-kosten exkl. MwSt": {
+   "n": 649,
+   "fehlend": 0.061,
+   "quantile": {
+    "0.0": 100.97,
+    "0.1": 272.29,
+    "0.25": 344.99,
+    "0.5": 444.86,
+    "0.75": 584.68,
+    "0.9": 744.136,
+    "1.0": 1028.64
+   }
+  },
+  "Funding/ Finance Lease (incl. Executory Costs)": {
+   "n": 643,
+   "fehlend": 0.069,
+   "quantile": {
+    "0.0": 46.99,
+    "0.1": 216.486,
+    "0.25": 283.21,
+    "0.5": 369.34,
+    "0.75": 497.99,
+    "0.9": 601.52,
+    "1.0": 935.71
+   }
+  },
+  "Service Rate (non finance lease rate)": {
+   "n": 646,
+   "fehlend": 0.065,
+   "quantile": {
+    "0.0": 33.24,
+    "0.1": 86.97,
+    "0.25": 112.5675,
+    "0.5": 144.605,
+    "0.75": 167.0,
+    "0.9": 208.08,
+    "1.0": 405.75
+   }
+  }
+ },
+ "daten": {
+  "vorauss. Liefertermin": {
+   "n": 379,
+   "fehlend": 0.452,
+   "min": "2019-04-05",
+   "max": "2026-01-29"
+  },
+  "Datum Erst-zulassung": {
+   "n": 677,
+   "fehlend": 0.02,
+   "min": "2009-10-19",
+   "max": "2025-11-14"
+  },
+  "An-/Ummelde datum": {
+   "n": 584,
+   "fehlend": 0.155,
+   "min": "2016-08-23",
+   "max": "2025-11-14"
+  },
+  "Übergabe-datum": {
+   "n": 537,
+   "fehlend": 0.223,
+   "min": "2017-01-24",
+   "max": "2025-11-19"
+  },
+  "HR-Meldung erledigt": {
+   "n": 530,
+   "fehlend": 0.233,
+   "min": "2015-05-15",
+   "max": "2025-12-13"
+  },
+  "abge- meldet per": {
+   "n": 444,
+   "fehlend": 0.357,
+   "min": "2017-06-19",
+   "max": "2025-12-04"
+  },
+  "Vertrags-beginn": {
+   "n": 581,
+   "fehlend": 0.159,
+   "min": "2015-04-01",
+   "max": "2025-12-01"
+  },
+  "Vertragsende Effektiv inkl. Änderungen": {
+   "n": 564,
+   "fehlend": 0.184,
+   "min": "2017-10-31",
+   "max": "2029-11-30"
+  },
+  "Vertragsende ursprünglich": {
+   "n": 564,
+   "fehlend": 0.184,
+   "min": "2017-10-31",
+   "max": "2029-11-30"
+  }
+ },
+ "fehlquote": {
+  "Objektnr. LP": 0.129,
+  "Kunden nummer": 0.758,
+  "ausliefernder Händler": 0.363,
+  "NRGkick Dinitech": 0.855,
+  "Objektnr. Leasing supplier": 0.124,
+  "In-Country Manager*in (Nach- und Vorname)": 0.431,
+  "Cost Center NEU ab 1.10.2024": 0.499,
+  "BU CF Depht Structure": 0.501,
+  "Reifen Depot": 0.81,
+  "§57a Überprüfung": 0.317,
+  "Beschaffung Start": 0.835,
+  "ZLSchNr.": 0.159,
+  "Bemerkung": 0.771,
+  "VIN Number": 0.151,
+  "IFA Number": 0.182,
+  "letzter bekannter km-Stand ( lt. Minderwertgutachten)": 0.64,
+  "km Differenz zu Vertrag": 0.347
+ },
+ "km_stichtage": [
+  {
+   "spalte": "km-Stand per 31.03.2017",
+   "datum": "2017-03-31",
+   "fehlend": 0.997
+  },
+  {
+   "spalte": "km-Stand per 31.12.2018",
+   "datum": "2018-12-31",
+   "fehlend": 0.771
+  },
+  {
+   "spalte": "km-Stand per 31.12.2019 bzw. Rückgabe vorher",
+   "datum": "2019-12-31",
+   "fehlend": 0.645
+  },
+  {
+   "spalte": "km-Stand per 30.03.2020",
+   "datum": "2020-03-30",
+   "fehlend": 0.696
+  },
+  {
+   "spalte": "km-Stand per 30.09.2020",
+   "datum": "2020-09-30",
+   "fehlend": 0.683
+  },
+  {
+   "spalte": "km-Stand per 31.12.2020 bzw. Rückgabe vorher",
+   "datum": "2020-12-31",
+   "fehlend": 0.685
+  },
+  {
+   "spalte": "km-Stand per 31.03.2021",
+   "datum": "2021-03-31",
+   "fehlend": 0.674
+  },
+  {
+   "spalte": "km-Stand per 30.09.2021",
+   "datum": "2021-09-30",
+   "fehlend": 0.637
+  },
+  {
+   "spalte": "km-Stand per 31.12.2021",
+   "datum": "2021-12-31",
+   "fehlend": 0.63
+  },
+  {
+   "spalte": "km-Stand per 31.03.2022",
+   "datum": "2022-03-31",
+   "fehlend": 0.628
+  },
+  {
+   "spalte": "km-Stand per 30.09.2022",
+   "datum": "2022-09-30",
+   "fehlend": 0.619
+  },
+  {
+   "spalte": "km-Stand per 31.12.2022",
+   "datum": "2022-12-31",
+   "fehlend": 0.601
+  },
+  {
+   "spalte": "km-Stand per 31.03.2023",
+   "datum": "2023-03-31",
+   "fehlend": 0.622
+  },
+  {
+   "spalte": "km-Stand per 30.09.2023",
+   "datum": "2023-09-30",
+   "fehlend": 0.606
+  },
+  {
+   "spalte": "km-Stand per 31.03.2024",
+   "datum": "2024-03-31",
+   "fehlend": 0.616
+  },
+  {
+   "spalte": "km-Stand per 30.09.2024",
+   "datum": "2024-09-30",
+   "fehlend": 0.615
+  },
+  {
+   "spalte": "km-Stand per 31.12.2024",
+   "datum": "2024-12-31",
+   "fehlend": 0.611
+  },
+  {
+   "spalte": "km-Stand per 30.09.2025",
+   "datum": "2025-09-30",
+   "fehlend": 0.635
+  },
+  {
+   "spalte": "km-Stand per 31.12.2025",
+   "datum": "2025-12-31",
+   "fehlend": 1.0
+  }
+ ],
+ "km_pro_monat_quantile": {
+  "0.0": 72.5436,
+  "0.1": 1509.897,
+  "0.25": 1907.5031,
+  "0.5": 2551.6011,
+  "0.75": 3191.8886,
+  "0.9": 3886.7597,
+  "1.0": 6904.073
+ },
+ "kennzeichen_muster": {
+  "A 99999A": 369,
+  "A 999AA": 268,
+  "A 9999AA": 49,
+  "A AAAAAA": 3,
+  "A 99999A / A 99999A / A 99999A": 1,
+  "A 9999A": 1
+ },
+ "antrieb_je_typ": {
+  "ICE": {
+   "D": 231,
+   "B": 3
+  },
+  "BEV": {
+   "E": 99
+  },
+  "PHEV": {
+   "H/B": 11,
+   "H/D": 2
+  }
+ }
+}

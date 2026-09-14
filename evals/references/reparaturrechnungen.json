@@ -1,0 +1,840 @@
+{
+ "quelle": "beim Erzeugen mitgeschrieben (src/synth/generate_belege.py), 14.09.2026",
+ "hinweis": "Werte sind die Belegwerte; wo der Beleg in sich widersprüchlich ist, steht es im Fehlerkatalog",
+ "rechnungen": [
+  {
+   "datei": "RR_01.pdf",
+   "layout": "Karosserie, digital + gescannte Zessionserklärung",
+   "seiten": 2,
+   "werkstatt": "Karosserie Nord GmbH",
+   "datum": "2025-02-23",
+   "kennzeichen": "GU 981EA",
+   "fahrgestellnr": "",
+   "km_stand": 61923,
+   "schadensnr": "7326/27961/2025",
+   "versicherung": "Beispiel Versicherung AG",
+   "selbstbehalt": 370.0,
+   "netto_eur": 1376.54,
+   "mwst_eur": 275.31,
+   "brutto_eur": 1651.85,
+   "duplikat_von": null,
+   "positionen": [
+    {
+     "nummer": "AW2",
+     "menge": "21",
+     "bezeichnung": "Arbeit Spengler",
+     "betrag_eur": 351.75
+    },
+    {
+     "nummer": "NKP",
+     "menge": "1",
+     "bezeichnung": "Nebenkostenpauschale",
+     "betrag_eur": 38.5
+    },
+    {
+     "nummer": "58760219140",
+     "menge": "1",
+     "bezeichnung": "Frontscheibe grün Regen/Licht",
+     "betrag_eur": 754.0
+    },
+    {
+     "nummer": "76042151818",
+     "menge": "1",
+     "bezeichnung": "Reparatursatz Scheibe, kalt",
+     "betrag_eur": 89.67
+    },
+    {
+     "nummer": "57347878266",
+     "menge": "2",
+     "bezeichnung": "Puffer",
+     "betrag_eur": 3.38
+    },
+    {
+     "nummer": "60629576055",
+     "menge": "1",
+     "bezeichnung": "Schallisolierung Frontscheibe",
+     "betrag_eur": 104.22
+    },
+    {
+     "nummer": "KLM",
+     "menge": "1",
+     "bezeichnung": "Klein- und Hilfsmaterial",
+     "betrag_eur": 15.27
+    },
+    {
+     "nummer": "ENT",
+     "menge": "1",
+     "bezeichnung": "Entsorgung",
+     "betrag_eur": 19.75
+    }
+   ],
+   "unsicherheit": "Seite 2 (Zession) nur als Scan",
+   "rechnungsnr": "AR256733146",
+   "adressat": "Fahrer privat + Versicherung"
+  },
+  {
+   "datei": "RR_02.pdf",
+   "layout": "Markenwerkstatt, Scan (Nadeldruck)",
+   "seiten": 2,
+   "werkstatt": "Autohaus Süd BMW Service",
+   "datum": "2025-01-16",
+   "kennzeichen": "WU 684WS",
+   "fahrgestellnr": "WMW7G1VNK9CJ8FW6L",
+   "km_stand": 160573,
+   "schadensnr": "7340/20716/2025",
+   "versicherung": "Beispiel Versicherung AG",
+   "selbstbehalt": 370.0,
+   "netto_eur": 1078.37,
+   "mwst_eur": 215.67,
+   "brutto_eur": 1294.04,
+   "duplikat_von": null,
+   "positionen": [
+    {
+     "nummer": "AW2",
+     "menge": "16",
+     "bezeichnung": "Arbeit Spengler",
+     "betrag_eur": 286.4
+    },
+    {
+     "nummer": "NKP",
+     "menge": "1",
+     "bezeichnung": "Nebenkostenpauschale",
+     "betrag_eur": 38.5
+    },
+    {
+     "nummer": "66862270144",
+     "menge": "1",
+     "bezeichnung": "Türblech",
+     "betrag_eur": 449.99
+    },
+    {
+     "nummer": "78724056682",
+     "menge": "1",
+     "bezeichnung": "Kleinteile Tür",
+     "betrag_eur": 28.4
+    },
+    {
+     "nummer": "70436082202",
+     "menge": "2",
+     "bezeichnung": "Lackmaterial",
+     "betrag_eur": 182.94
+    },
+    {
+     "nummer": "81630434028",
+     "menge": "1",
+     "bezeichnung": "Dichtung",
+     "betrag_eur": 52.41
+    },
+    {
+     "nummer": "KLM",
+     "menge": "1",
+     "bezeichnung": "Klein- und Hilfsmaterial",
+     "betrag_eur": 18.7
+    },
+    {
+     "nummer": "ENT",
+     "menge": "1",
+     "bezeichnung": "Entsorgung",
+     "betrag_eur": 21.03
+    }
+   ],
+   "unsicherheit": "nur als Scan, Nadeldruck",
+   "rechnungsnr": "20-222630",
+   "adressat": "Firma oder Fahrer privat"
+  },
+  {
+   "datei": "RR_03.pdf",
+   "layout": "Karosserie, digital + gescannte Zessionserklärung",
+   "seiten": 2,
+   "werkstatt": "Karosserie Nord GmbH",
+   "datum": "2025-01-18",
+   "kennzeichen": "LL 34678W",
+   "fahrgestellnr": "WBAWGK6GHSB6MUB75",
+   "km_stand": 124385,
+   "schadensnr": "7344/11673/2025",
+   "versicherung": "Beispiel Versicherung AG",
+   "selbstbehalt": 370.0,
+   "netto_eur": 1348.09,
+   "mwst_eur": 269.62,
+   "brutto_eur": 1617.81,
+   "duplikat_von": null,
+   "positionen": [
+    {
+     "nummer": "AW2",
+     "menge": "40",
+     "bezeichnung": "Arbeit Spengler",
+     "betrag_eur": 670.0
+    },
+    {
+     "nummer": "NKP",
+     "menge": "1",
+     "bezeichnung": "Nebenkostenpauschale",
+     "betrag_eur": 38.5
+    },
+    {
+     "nummer": "68385475246",
+     "menge": "1",
+     "bezeichnung": "Stoßfänger hinten grundiert",
+     "betrag_eur": 409.27
+    },
+    {
+     "nummer": "75763073218",
+     "menge": "1",
+     "bezeichnung": "Lackmaterial",
+     "betrag_eur": 86.62
+    },
+    {
+     "nummer": "68052005955",
+     "menge": "2",
+     "bezeichnung": "Halter Stoßfänger",
+     "betrag_eur": 108.48
+    },
+    {
+     "nummer": "KLM",
+     "menge": "1",
+     "bezeichnung": "Klein- und Hilfsmaterial",
+     "betrag_eur": 20.45
+    },
+    {
+     "nummer": "ENT",
+     "menge": "1",
+     "bezeichnung": "Entsorgung",
+     "betrag_eur": 14.77
+    }
+   ],
+   "unsicherheit": "Seite 2 (Zession) nur als Scan",
+   "rechnungsnr": "AR256618672",
+   "adressat": "Fahrer privat + Versicherung"
+  },
+  {
+   "datei": "RR_04.pdf",
+   "layout": "Markenwerkstatt, Scan (Nadeldruck)",
+   "seiten": 2,
+   "werkstatt": "Autohaus Süd BMW Service",
+   "datum": "2025-06-24",
+   "kennzeichen": "GU 1149KL",
+   "fahrgestellnr": "W0VWS9UDT1BURKY2J",
+   "km_stand": 34497,
+   "schadensnr": "7372/21622/2025",
+   "versicherung": "Beispiel Versicherung AG",
+   "selbstbehalt": 370.0,
+   "netto_eur": 1884.94,
+   "mwst_eur": 376.99,
+   "brutto_eur": 2261.93,
+   "duplikat_von": null,
+   "positionen": [
+    {
+     "nummer": "AW2",
+     "menge": "34",
+     "bezeichnung": "Arbeit Spengler",
+     "betrag_eur": 629.0
+    },
+    {
+     "nummer": "NKP",
+     "menge": "1",
+     "bezeichnung": "Nebenkostenpauschale",
+     "betrag_eur": 38.5
+    },
+    {
+     "nummer": "80795947013",
+     "menge": "2",
+     "bezeichnung": "Türblech",
+     "betrag_eur": 954.28
+    },
+    {
+     "nummer": "75299595743",
+     "menge": "2",
+     "bezeichnung": "Kleinteile Tür",
+     "betrag_eur": 92.12
+    },
+    {
+     "nummer": "58062314671",
+     "menge": "1",
+     "bezeichnung": "Lackmaterial",
+     "betrag_eur": 98.64
+    },
+    {
+     "nummer": "68846768333",
+     "menge": "1",
+     "bezeichnung": "Dichtung",
+     "betrag_eur": 32.47
+    },
+    {
+     "nummer": "KLM",
+     "menge": "1",
+     "bezeichnung": "Klein- und Hilfsmaterial",
+     "betrag_eur": 22.23
+    },
+    {
+     "nummer": "ENT",
+     "menge": "1",
+     "bezeichnung": "Entsorgung",
+     "betrag_eur": 17.7
+    }
+   ],
+   "unsicherheit": "nur als Scan, Nadeldruck",
+   "rechnungsnr": "20-234248",
+   "adressat": "Firma oder Fahrer privat"
+  },
+  {
+   "datei": "RR_05.pdf",
+   "layout": "Markenwerkstatt, Scan (Nadeldruck)",
+   "seiten": 2,
+   "werkstatt": "Autohaus Süd BMW Service",
+   "datum": "2024-11-04",
+   "kennzeichen": "KL 76516C",
+   "fahrgestellnr": "WBAYJCZYM67MJE6CV",
+   "km_stand": 59671,
+   "schadensnr": "7359/38037/2024",
+   "versicherung": "Beispiel Versicherung AG",
+   "selbstbehalt": 350.0,
+   "netto_eur": 1431.69,
+   "mwst_eur": 286.34,
+   "brutto_eur": 1718.03,
+   "duplikat_von": null,
+   "positionen": [
+    {
+     "nummer": "AW2",
+     "menge": "31",
+     "bezeichnung": "Arbeit Spengler",
+     "betrag_eur": 573.5
+    },
+    {
+     "nummer": "NKP",
+     "menge": "1",
+     "bezeichnung": "Nebenkostenpauschale",
+     "betrag_eur": 41.6
+    },
+    {
+     "nummer": "75080058640",
+     "menge": "1",
+     "bezeichnung": "Türblech",
+     "betrag_eur": 553.61
+    },
+    {
+     "nummer": "59022771612",
+     "menge": "1",
+     "bezeichnung": "Kleinteile Tür",
+     "betrag_eur": 45.05
+    },
+    {
+     "nummer": "59781097304",
+     "menge": "1",
+     "bezeichnung": "Lackmaterial",
+     "betrag_eur": 137.85
+    },
+    {
+     "nummer": "80789728566",
+     "menge": "1",
+     "bezeichnung": "Dichtung",
+     "betrag_eur": 41.11
+    },
+    {
+     "nummer": "KLM",
+     "menge": "1",
+     "bezeichnung": "Klein- und Hilfsmaterial",
+     "betrag_eur": 20.7
+    },
+    {
+     "nummer": "ENT",
+     "menge": "1",
+     "bezeichnung": "Entsorgung",
+     "betrag_eur": 18.27
+    }
+   ],
+   "unsicherheit": "nur als Scan, Nadeldruck",
+   "rechnungsnr": "20-233504",
+   "adressat": "Firma oder Fahrer privat"
+  },
+  {
+   "datei": "RR_06.pdf",
+   "layout": "Karosserie, digital + gescannte Zessionserklärung",
+   "seiten": 2,
+   "werkstatt": "Karosserie Nord GmbH",
+   "datum": "2025-05-01",
+   "kennzeichen": "G 364BV",
+   "fahrgestellnr": "WVW0L5SCJG1LB8FAA",
+   "km_stand": "",
+   "schadensnr": "7346/8826/2025",
+   "versicherung": "Beispiel Versicherung AG",
+   "selbstbehalt": 350.0,
+   "netto_eur": 1365.11,
+   "mwst_eur": 273.02,
+   "brutto_eur": 1638.13,
+   "duplikat_von": null,
+   "positionen": [
+    {
+     "nummer": "AW2",
+     "menge": "16",
+     "bezeichnung": "Arbeit Spengler",
+     "betrag_eur": 286.4
+    },
+    {
+     "nummer": "NKP",
+     "menge": "1",
+     "bezeichnung": "Nebenkostenpauschale",
+     "betrag_eur": 41.6
+    },
+    {
+     "nummer": "77484655727",
+     "menge": "1",
+     "bezeichnung": "Frontscheibe grün Regen/Licht",
+     "betrag_eur": 794.43
+    },
+    {
+     "nummer": "70439888412",
+     "menge": "1",
+     "bezeichnung": "Reparatursatz Scheibe, kalt",
+     "betrag_eur": 74.68
+    },
+    {
+     "nummer": "81711993752",
+     "menge": "2",
+     "bezeichnung": "Puffer",
+     "betrag_eur": 7.78
+    },
+    {
+     "nummer": "72522639921",
+     "menge": "2",
+     "bezeichnung": "Schallisolierung Frontscheibe",
+     "betrag_eur": 122.18
+    },
+    {
+     "nummer": "KLM",
+     "menge": "1",
+     "bezeichnung": "Klein- und Hilfsmaterial",
+     "betrag_eur": 16.38
+    },
+    {
+     "nummer": "ENT",
+     "menge": "1",
+     "bezeichnung": "Entsorgung",
+     "betrag_eur": 21.66
+    }
+   ],
+   "unsicherheit": "Seite 2 (Zession) nur als Scan",
+   "rechnungsnr": "AR256728550",
+   "adressat": "Fahrer privat + Versicherung"
+  },
+  {
+   "datei": "RR_07.pdf",
+   "layout": "Markenwerkstatt, Scan (Nadeldruck)",
+   "seiten": 2,
+   "werkstatt": "Autohaus Süd BMW Service",
+   "datum": "2024-11-22",
+   "kennzeichen": "S 41937C",
+   "fahrgestellnr": "LPSH20GXKBF676UAY",
+   "km_stand": 45819,
+   "schadensnr": "7341/39047/2024",
+   "versicherung": "Beispiel Versicherung AG",
+   "selbstbehalt": 350.0,
+   "netto_eur": 2537.62,
+   "mwst_eur": 507.52,
+   "brutto_eur": 3045.14,
+   "duplikat_von": null,
+   "positionen": [
+    {
+     "nummer": "AW2",
+     "menge": "30",
+     "bezeichnung": "Arbeit Spengler",
+     "betrag_eur": 502.5
+    },
+    {
+     "nummer": "NKP",
+     "menge": "1",
+     "bezeichnung": "Nebenkostenpauschale",
+     "betrag_eur": 41.6
+    },
+    {
+     "nummer": "52872078356",
+     "menge": "2",
+     "bezeichnung": "Frontscheibe grün Regen/Licht",
+     "betrag_eur": 1677.72
+    },
+    {
+     "nummer": "82174190066",
+     "menge": "1",
+     "bezeichnung": "Reparatursatz Scheibe, kalt",
+     "betrag_eur": 77.48
+    },
+    {
+     "nummer": "60071643776",
+     "menge": "1",
+     "bezeichnung": "Puffer",
+     "betrag_eur": 2.86
+    },
+    {
+     "nummer": "71221038285",
+     "menge": "2",
+     "bezeichnung": "Schallisolierung Frontscheibe",
+     "betrag_eur": 191.38
+    },
+    {
+     "nummer": "KLM",
+     "menge": "1",
+     "bezeichnung": "Klein- und Hilfsmaterial",
+     "betrag_eur": 24.53
+    },
+    {
+     "nummer": "ENT",
+     "menge": "1",
+     "bezeichnung": "Entsorgung",
+     "betrag_eur": 19.55
+    }
+   ],
+   "unsicherheit": "nur als Scan, Nadeldruck",
+   "rechnungsnr": "20-226709",
+   "adressat": "Firma oder Fahrer privat"
+  },
+  {
+   "datei": "RR_08.pdf",
+   "layout": "Karosserie, digital + gescannte Zessionserklärung",
+   "seiten": 2,
+   "werkstatt": "Karosserie Nord GmbH",
+   "datum": "2025-02-20",
+   "kennzeichen": "K 9012D",
+   "fahrgestellnr": "",
+   "km_stand": 175893,
+   "schadensnr": "7331/33864/2025",
+   "versicherung": "Beispiel Versicherung AG",
+   "selbstbehalt": 370.0,
+   "netto_eur": 1386.07,
+   "mwst_eur": 277.21,
+   "brutto_eur": 1663.28,
+   "duplikat_von": null,
+   "positionen": [
+    {
+     "nummer": "AW2",
+     "menge": "20",
+     "bezeichnung": "Arbeit Spengler",
+     "betrag_eur": 335.0
+    },
+    {
+     "nummer": "NKP",
+     "menge": "1",
+     "bezeichnung": "Nebenkostenpauschale",
+     "betrag_eur": 38.5
+    },
+    {
+     "nummer": "58822623599",
+     "menge": "1",
+     "bezeichnung": "Frontscheibe grün Regen/Licht",
+     "betrag_eur": 806.37
+    },
+    {
+     "nummer": "73557128563",
+     "menge": "1",
+     "bezeichnung": "Reparatursatz Scheibe, kalt",
+     "betrag_eur": 84.15
+    },
+    {
+     "nummer": "55307191134",
+     "menge": "1",
+     "bezeichnung": "Puffer",
+     "betrag_eur": 3.86
+    },
+    {
+     "nummer": "64189488842",
+     "menge": "1",
+     "bezeichnung": "Schallisolierung Frontscheibe",
+     "betrag_eur": 86.61
+    },
+    {
+     "nummer": "KLM",
+     "menge": "1",
+     "bezeichnung": "Klein- und Hilfsmaterial",
+     "betrag_eur": 15.1
+    },
+    {
+     "nummer": "ENT",
+     "menge": "1",
+     "bezeichnung": "Entsorgung",
+     "betrag_eur": 16.48
+    }
+   ],
+   "unsicherheit": "Seite 2 (Zession) nur als Scan",
+   "rechnungsnr": "AR256674138",
+   "adressat": "Fahrer privat + Versicherung"
+  },
+  {
+   "datei": "RR_09.pdf",
+   "layout": "Markenwerkstatt, Scan (Nadeldruck)",
+   "seiten": 2,
+   "werkstatt": "Autohaus Süd BMW Service",
+   "datum": "2024-12-27",
+   "kennzeichen": "W 99999X",
+   "fahrgestellnr": "VSS5ZB3D290S1F0RB",
+   "km_stand": 67427,
+   "schadensnr": "7350/36226/2024",
+   "versicherung": "Beispiel Versicherung AG",
+   "selbstbehalt": 370.0,
+   "netto_eur": 1893.83,
+   "mwst_eur": 378.77,
+   "brutto_eur": 2272.6,
+   "duplikat_von": null,
+   "positionen": [
+    {
+     "nummer": "AW2",
+     "menge": "37",
+     "bezeichnung": "Arbeit Spengler",
+     "betrag_eur": 662.3
+    },
+    {
+     "nummer": "NKP",
+     "menge": "1",
+     "bezeichnung": "Nebenkostenpauschale",
+     "betrag_eur": 41.6
+    },
+    {
+     "nummer": "57205522416",
+     "menge": "1",
+     "bezeichnung": "Frontscheibe grün Regen/Licht",
+     "betrag_eur": 979.06
+    },
+    {
+     "nummer": "82182185047",
+     "menge": "1",
+     "bezeichnung": "Reparatursatz Scheibe, kalt",
+     "betrag_eur": 62.79
+    },
+    {
+     "nummer": "73359104071",
+     "menge": "1",
+     "bezeichnung": "Puffer",
+     "betrag_eur": 3.54
+    },
+    {
+     "nummer": "64782044822",
+     "menge": "1",
+     "bezeichnung": "Schallisolierung Frontscheibe",
+     "betrag_eur": 100.73
+    },
+    {
+     "nummer": "KLM",
+     "menge": "1",
+     "bezeichnung": "Klein- und Hilfsmaterial",
+     "betrag_eur": 24.94
+    },
+    {
+     "nummer": "ENT",
+     "menge": "1",
+     "bezeichnung": "Entsorgung",
+     "betrag_eur": 18.87
+    }
+   ],
+   "unsicherheit": "Kennzeichen nicht in den Stammdaten (Ersatzfahrzeug); nur als Scan, Nadeldruck",
+   "rechnungsnr": "20-223807",
+   "adressat": "Firma oder Fahrer privat"
+  },
+  {
+   "datei": "RR_10.pdf",
+   "layout": "Karosserie, digital + gescannte Zessionserklärung",
+   "seiten": 2,
+   "werkstatt": "Karosserie Nord GmbH",
+   "datum": "2025-06-12",
+   "kennzeichen": "P 787WJ",
+   "fahrgestellnr": "WBAE5LC9T3VZ2BHMX",
+   "km_stand": 40379,
+   "schadensnr": "7363/20918/2025",
+   "versicherung": "Beispiel Versicherung AG",
+   "selbstbehalt": 350.0,
+   "netto_eur": 1726.75,
+   "mwst_eur": 345.35,
+   "brutto_eur": 2072.1,
+   "duplikat_von": null,
+   "positionen": [
+    {
+     "nummer": "AW2",
+     "menge": "28",
+     "bezeichnung": "Arbeit Spengler",
+     "betrag_eur": 518.0
+    },
+    {
+     "nummer": "NKP",
+     "menge": "1",
+     "bezeichnung": "Nebenkostenpauschale",
+     "betrag_eur": 38.5
+    },
+    {
+     "nummer": "53463950058",
+     "menge": "1",
+     "bezeichnung": "Frontscheibe grün Regen/Licht",
+     "betrag_eur": 970.36
+    },
+    {
+     "nummer": "79919104887",
+     "menge": "1",
+     "bezeichnung": "Reparatursatz Scheibe, kalt",
+     "betrag_eur": 54.2
+    },
+    {
+     "nummer": "78190426313",
+     "menge": "1",
+     "bezeichnung": "Puffer",
+     "betrag_eur": 3.67
+    },
+    {
+     "nummer": "57687288200",
+     "menge": "1",
+     "bezeichnung": "Schallisolierung Frontscheibe",
+     "betrag_eur": 103.05
+    },
+    {
+     "nummer": "KLM",
+     "menge": "1",
+     "bezeichnung": "Klein- und Hilfsmaterial",
+     "betrag_eur": 21.32
+    },
+    {
+     "nummer": "ENT",
+     "menge": "1",
+     "bezeichnung": "Entsorgung",
+     "betrag_eur": 17.65
+    }
+   ],
+   "unsicherheit": "Seite 2 (Zession) nur als Scan",
+   "rechnungsnr": "AR256597031",
+   "adressat": "Fahrer privat + Versicherung"
+  },
+  {
+   "datei": "RR_11.pdf",
+   "layout": "Markenwerkstatt, Scan (Nadeldruck)",
+   "seiten": 2,
+   "werkstatt": "Autohaus Süd BMW Service",
+   "datum": "2025-06-05",
+   "kennzeichen": "W 45678C",
+   "fahrgestellnr": "",
+   "km_stand": 102779,
+   "schadensnr": "7346/12989/2025",
+   "versicherung": "Beispiel Versicherung AG",
+   "selbstbehalt": 370.0,
+   "netto_eur": 1548.42,
+   "mwst_eur": 309.68,
+   "brutto_eur": 1858.1,
+   "duplikat_von": null,
+   "positionen": [
+    {
+     "nummer": "AW2",
+     "menge": "39",
+     "bezeichnung": "Arbeit Spengler",
+     "betrag_eur": 698.1
+    },
+    {
+     "nummer": "NKP",
+     "menge": "1",
+     "bezeichnung": "Nebenkostenpauschale",
+     "betrag_eur": 41.6
+    },
+    {
+     "nummer": "65962755358",
+     "menge": "1",
+     "bezeichnung": "Türblech",
+     "betrag_eur": 450.91
+    },
+    {
+     "nummer": "61527776303",
+     "menge": "1",
+     "bezeichnung": "Kleinteile Tür",
+     "betrag_eur": 58.34
+    },
+    {
+     "nummer": "72246471326",
+     "menge": "1",
+     "bezeichnung": "Lackmaterial",
+     "betrag_eur": 155.08
+    },
+    {
+     "nummer": "67995657577",
+     "menge": "2",
+     "bezeichnung": "Dichtung",
+     "betrag_eur": 110.9
+    },
+    {
+     "nummer": "KLM",
+     "menge": "1",
+     "bezeichnung": "Klein- und Hilfsmaterial",
+     "betrag_eur": 15.16
+    },
+    {
+     "nummer": "ENT",
+     "menge": "1",
+     "bezeichnung": "Entsorgung",
+     "betrag_eur": 18.33
+    }
+   ],
+   "unsicherheit": "nur als Scan, Nadeldruck",
+   "rechnungsnr": "20-222009",
+   "adressat": "Firma oder Fahrer privat"
+  },
+  {
+   "datei": "RR_12.pdf",
+   "layout": "Markenwerkstatt, Scan, RECHNUNG - DUPLIKAT",
+   "seiten": 1,
+   "werkstatt": "Autohaus Süd BMW Service",
+   "datum": "2024-11-04",
+   "kennzeichen": "KL 76516C",
+   "fahrgestellnr": "WBAYJCZYM67MJE6CV",
+   "km_stand": 59671,
+   "schadensnr": "7359/38037/2024",
+   "versicherung": "Beispiel Versicherung AG",
+   "selbstbehalt": 350.0,
+   "netto_eur": 1431.69,
+   "mwst_eur": 286.34,
+   "brutto_eur": 1718.03,
+   "duplikat_von": "RR_05.pdf",
+   "positionen": [
+    {
+     "nummer": "AW2",
+     "menge": "31",
+     "bezeichnung": "Arbeit Spengler",
+     "betrag_eur": 573.5
+    },
+    {
+     "nummer": "NKP",
+     "menge": "1",
+     "bezeichnung": "Nebenkostenpauschale",
+     "betrag_eur": 41.6
+    },
+    {
+     "nummer": "75080058640",
+     "menge": "1",
+     "bezeichnung": "Türblech",
+     "betrag_eur": 553.61
+    },
+    {
+     "nummer": "59022771612",
+     "menge": "1",
+     "bezeichnung": "Kleinteile Tür",
+     "betrag_eur": 45.05
+    },
+    {
+     "nummer": "59781097304",
+     "menge": "1",
+     "bezeichnung": "Lackmaterial",
+     "betrag_eur": 137.85
+    },
+    {
+     "nummer": "80789728566",
+     "menge": "1",
+     "bezeichnung": "Dichtung",
+     "betrag_eur": 41.11
+    },
+    {
+     "nummer": "KLM",
+     "menge": "1",
+     "bezeichnung": "Klein- und Hilfsmaterial",
+     "betrag_eur": 20.7
+    },
+    {
+     "nummer": "ENT",
+     "menge": "1",
+     "bezeichnung": "Entsorgung",
+     "betrag_eur": 18.27
+    }
+   ],
+   "unsicherheit": "nur als Scan, Nadeldruck",
+   "rechnungsnr": "20-233504",
+   "adressat": "Firma oder Fahrer privat"
+  }
+ ]
+}

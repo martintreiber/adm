@@ -1,0 +1,15 @@
+[
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Das Bild ist eine Werkstattrechnung. Extrahiere genau diese Felder und antworte nur mit JSON:\n{\"rechnungsnr\": string, \"datum\": \"YYYY-MM-DD\", \"kennzeichen\": string, \"netto_eur\": number, \"brutto_eur\": number}\nRegeln: Beträge als Zahl mit Punkt als Dezimaltrenner, ohne Tausenderpunkt. Das Kennzeichen ohne Leerzeichen und Bindestrich. Fehlt ein Feld, setze null. Erfinde nichts."
+      },
+      {
+        "type": "image_url",
+        "image_url": { "url": "{{bild}}" }
+      }
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+[
+  {"kennzahl": "netto_summe_eur", "kennzeichen": "G123AB", "erwartet": 14547.55, "quelle": "src/sql/kennzahl_beispiel.sql auf data/sample/beispiel.csv, 14.09.2026", "toleranz": "2 %"},
+  {"kennzahl": "netto_summe_eur", "kennzeichen": "W45678C", "erwartet": 3832.23, "quelle": "src/sql/kennzahl_beispiel.sql auf data/sample/beispiel.csv, 14.09.2026", "toleranz": "2 %"}
+]

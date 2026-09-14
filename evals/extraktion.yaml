@@ -1,0 +1,48 @@
+# Suite 2 · Extraktion, exakt (Tier 1) und mit Python-Grader (Tier 2).
+# Aufruf aus dem Repo-Root: npx promptfoo@latest eval -c evals/extraktion.yaml
+description: "Felder aus einem Rechnungstext"
+
+providers:
+  - id: openrouter:google/gemma-4-26b-a4b-it:free   # :free-Modelle rotieren; aktuelle Liste: openrouter.ai/models, Filter "free". Name und Datum ins Log.
+
+prompts:
+  - file://../prompts/extraktion_v1.md
+
+defaultTest:
+  options:
+    transform: |
+      // Das letzte flache JSON-Objekt aus der Antwort ziehen, auch wenn Denktext oder Erklärung drumherum steht.
+      // Kein JSON: leeres Objekt, die Assertions scheitern dann sauber. Verschachteltes JSON braucht einen echten Parser.
+      try { const all = String(output).match(/\{[^{}]*\}/g); return all ? JSON.parse(all[all.length - 1]) : {}; } catch (e) { return {}; }
+
+tests:
+  - vars:
+      text: |
+        Rechnung R-2025-0003 vom 14.05.2025
+        Werkstatt Huber, Grazer Straße 12, 8010 Graz
+        Kennzeichen: G-123AB
+        Nettobetrag EUR 134,67  ·  MwSt 20 %  ·  Brutto EUR 161,60
+    assert:
+      - type: is-json
+      - type: javascript
+        value: output.rechnungsnr === "R-2025-0003"
+      - type: javascript
+        value: Math.abs(output.netto_eur - 134.67) < 0.005
+      - type: python
+        value: file://graders/feldvergleich.py
+  - vars:
+      text: |
+        RECHNUNG - DUPLIKAT   Nr. R-2025-0011   Datum 10.05.2025
+        Glas Berger
+        Pol.-Kennz. W 45678C
+        Nettobetrag        1.506,58
+        20 % MWSt            301,32
+        Rechnungsendbetrag 1.807,90
+    assert:
+      - type: is-json
+      - type: javascript
+        value: output.rechnungsnr === "R-2025-0011"
+      - type: javascript
+        value: Math.abs(output.netto_eur - 1506.58) < 0.005
+      - type: python
+        value: file://graders/feldvergleich.py

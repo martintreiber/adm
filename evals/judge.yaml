@@ -1,0 +1,38 @@
+# Suite 3 · Judge: ein zweites Modell prüft einen Text gegen eine Kriterienliste.
+# Der Judge prüft Form, nie Wahrheit: Ob die genannte Zahl stimmt, weiß er nicht. Deshalb Suite 1 daneben.
+# Aufruf aus dem Repo-Root: npx promptfoo@latest eval -c evals/judge.yaml (zwei Anfragen je Test: Antwort und Judge)
+description: "Empfehlungstext gegen Kriterien"
+
+providers:
+  - id: openrouter:google/gemma-4-26b-a4b-it:free   # schreibt den Text
+
+prompts:
+  - file://../prompts/empfehlung_v1.md
+
+defaultTest:
+  options:
+    provider: openrouter:google/gemma-4-26b-a4b-it:free   # der Judge. Zweites Modell wäre besser als dasselbe; überschreibbar mit --grader
+  assert: []
+
+tests:
+  - vars:
+      kennzahlen: file://../data/processed/kennzahl_beispiel.csv
+      adressat: Flottenverantwortliche
+    assert:
+      - type: llm-rubric
+        value: |
+          Bewerte den Text nach drei Kriterien, je 0 oder 1:
+          1. Nennt die Nettosumme je Fahrzeug mit Zahl.
+          2. Benennt eine Lücke oder Unsicherheit in den Daten (etwa eine Rechnung ohne Betrag).
+          3. Enthält keine Zahl, die nicht in der Tabelle steht.
+          Bestanden, wenn alle drei erfüllt sind.
+      - type: javascript
+        value: |
+          // Halluzinationsschutz: jede Zahl im Text muss in der Tabelle vorkommen. Bewusst grob: Teilstring-Vergleich,
+          // Jahreszahlen fallen durch, Kennzeichen liefern Zahlen. Wer es besser macht, schreibt einen Grader in graders/.
+          const table = String(context.vars.kennzahlen);
+          // Beginnt die Ausgabe mit dem Denktext eines Reasoning-Modells ("Thinking: …"), zählt nur der letzte Absatz.
+          const raw = String(output).trim(); const parts = raw.split(/\n\s*\n/); const text = raw.startsWith('Thinking:') ? parts[parts.length - 1] : raw;
+          const nums = (text.match(/\d[\d.]*,\d{2}|\d{3,}/g) || []).map(s => s.replace(/\./g,'').replace(',','.'));
+          const bad = nums.filter(n => !table.includes(n) && !table.includes(n.replace('.',',')));
+          return { pass: bad.length === 0, score: bad.length ? 0 : 1, reason: bad.length ? 'Zahlen ohne Quelle: ' + bad.join(', ') : 'alle Zahlen belegt' };

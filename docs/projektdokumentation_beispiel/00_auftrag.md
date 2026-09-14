@@ -1,0 +1,3 @@
+# Auftrag
+
+Adressat: Flottenverantwortliche des Kunden. Entscheidung: Welche Leasingverträge werden vor Ablauf nachverhandelt, und welche Fahrzeuge fallen bei Tanken, Laden und Reparaturen aus dem Rahmen? Drei Analysen: 1 Mehrkilometer-Prognose je Vertrag (SQL auf Stammdaten und Kilometerstände), 2 Tank- und Ladekosten je Fahrzeug im Monat (SQL auf den Belegen des Leasinggebers und des Ladenetzbetreibers), 3 Felder aus Reparaturrechnungen (Prompt, Scans in drei Layouts). Nicht drin: Fahrerverhalten, Routen, Versicherungsfälle. Änderung seit dem Pitch: 14.9. Ladekosten statt Reifenkosten, weil der Reifenhändler keine Daten liefert.

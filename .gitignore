@@ -1,0 +1,21 @@
+# Daten: Rohdaten und Zwischenstände bleiben lokal. data/processed/ (SQLite, Kennzahlen-CSV) wird committet, siehe README.
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+# Geheimnisse
+.env
+# Umgebungen und Caches
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Eval-Rohergebnisse (groß); die Zahlen kommen in die Doku, siehe evals/README.md
+evals/results/*
+!evals/results/.gitkeep
+# Betriebssystem und lokale Werkzeuge
+.DS_Store
+.dev-diary/
+.agora/

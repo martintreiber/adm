@@ -1,0 +1,252 @@
+{
+ "quelle": "Tankkartenabrechnung (Leasinggeber) und Ladekartenrechnung (Ladenetzbetreiber), je ein Monat; aggregiert",
+ "tank": {
+  "seiten": 52,
+  "fahrzeuge": 40,
+  "tankungen": 66,
+  "tankungen_je_fahrzeug": {
+   "6": 1,
+   "5": 4,
+   "7": 1,
+   "2": 2,
+   "8": 1,
+   "10": 1,
+   "3": 2,
+   "1": 1,
+   "4": 2
+  },
+  "anbieter": {
+   "DKV EUROSERVICE": 33,
+   "SHELL": 3,
+   "OMV DOWN": 30
+  },
+  "kraftstoff": {
+   "Diesel": 63,
+   "Benzin": 2,
+   "Kraftsto": 1
+  },
+  "liter_quantile": {
+   "0": 2.47,
+   "0.1": 20.605,
+   "0.25": 33.63,
+   "0.5": 40.28,
+   "0.75": 43.395,
+   "0.9": 45.545,
+   "1": 48.96
+  },
+  "preis_je_liter_quantile": {
+   "0": 1.39,
+   "0.1": 1.51,
+   "0.25": 1.5225,
+   "0.5": 1.58,
+   "0.75": 1.6375,
+   "0.9": 1.71,
+   "1": 2.1
+  },
+  "km_stand_anteil": 0.909,
+  "sonstige_positionen_je_fahrzeug": {
+   "Tankstellenrabatt": 1.675,
+   "Maut": 0.375,
+   "Bearb.Kosten Tankstelle": 0.675,
+   "Tankstellenrabatt Ersatzfzg": 0.025,
+   "KFZ-Reinigung": 0.35,
+   "E-Ladung Aufschlag": 0.05
+  },
+  "sonstige_betrag_quantile": {
+   "Tankstellenrabatt": {
+    "0": -7.59,
+    "0.1": -2.386,
+    "0.25": -0.97,
+    "0.5": -0.76,
+    "0.75": -0.595,
+    "0.9": -0.438,
+    "1": -0.13
+   },
+   "Maut": {
+    "0": 0.14,
+    "0.1": 0.26,
+    "0.25": 0.42,
+    "0.5": 7.0,
+    "0.75": 9.75,
+    "0.9": 27.0,
+    "1": 87.01
+   },
+   "Bearb.Kosten Tankstelle": {
+    "0": 0.5,
+    "0.1": 0.5,
+    "0.25": 0.5,
+    "0.5": 0.5,
+    "0.75": 0.55,
+    "0.9": 1.8,
+    "1": 4.2
+   },
+   "Tankstellenrabatt Ersatzfzg": {
+    "0": -0.21,
+    "0.1": -0.21,
+    "0.25": -0.21,
+    "0.5": -0.21,
+    "0.75": -0.21,
+    "0.9": -0.21,
+    "1": -0.21
+   },
+   "KFZ-Reinigung": {
+    "0": 7.9,
+    "0.1": 8.14,
+    "0.25": 11.24,
+    "0.5": 13.945,
+    "0.75": 15.9,
+    "0.9": 19.777,
+    "1": 19.9
+   },
+   "E-Ladung Aufschlag": {
+    "0": 1.2,
+    "0.1": 1.2,
+    "0.25": 1.2,
+    "0.5": 1.2,
+    "0.75": 1.2,
+    "0.9": 1.2,
+    "1": 1.2
+   }
+  },
+  "summe_je_fahrzeug_quantile": {
+   "0": 1.0,
+   "0.1": 62.183,
+   "0.25": 199.2425,
+   "0.5": 321.535,
+   "0.75": 535.0975,
+   "0.9": 848.33,
+   "1": 1253.25
+  }
+ },
+ "lade": {
+  "seiten": 10,
+  "karten": 16,
+  "positionen": 85,
+  "netze": {
+   "EVN": 9,
+   "MER Germany GmbH": 16,
+   "Partnerladenetze - Business Park Charging": 19,
+   "has-to-be": 4,
+   "Wien Energie": 8,
+   "ÖBB Infrastruktur AG": 8,
+   "Turmstrom": 8,
+   "Energie Steiermark": 9,
+   "Ionity": 4
+  },
+  "klassen": {
+   "über 50kW, DC Ladepunkt": 29,
+   "max. 50kW, DC Ladepunkt": 12,
+   "max. 11kW, AC Ladepunkt": 36,
+   "max. 22kW, AC Ladepunkt": 4,
+   "max. 3,7kW, AC Ladepunkt": 4
+  },
+  "arten": {
+   "Ladedauer": 20,
+   "Blockierdauer": 5,
+   "Freiminuten": 20,
+   "Ladevorgänge": 20,
+   "Abgegebene Energie": 20
+  },
+  "preise_je_netz_klasse_art": {
+   "EVN": {
+    "über 50kW, DC Ladepunkt": {
+     "Blockierdauer": 0.17,
+     "Abgegebene Energie": 0.74
+    },
+    "max. 50kW, DC Ladepunkt": {
+     "Abgegebene Energie": 0.74
+    }
+   },
+   "MER Germany GmbH": {
+    "über 50kW, DC Ladepunkt": {
+     "Abgegebene Energie": 0.74
+    }
+   },
+   "Partnerladenetze - Business Park Charging": {
+    "max. 11kW, AC Ladepunkt": {
+     "Blockierdauer": 0.08,
+     "Abgegebene Energie": 0.31
+    }
+   },
+   "has-to-be": {
+    "max. 22kW, AC Ladepunkt": {
+     "Abgegebene Energie": 0.66
+    }
+   },
+   "Wien Energie": {
+    "max. 50kW, DC Ladepunkt": {
+     "Abgegebene Energie": 0.74
+    },
+    "max. 11kW, AC Ladepunkt": {
+     "Abgegebene Energie": 0.66
+    }
+   },
+   "ÖBB Infrastruktur AG": {
+    "max. 11kW, AC Ladepunkt": {
+     "Abgegebene Energie": 0.46
+    },
+    "max. 3,7kW, AC Ladepunkt": {
+     "Abgegebene Energie": 0.46
+    }
+   },
+   "Turmstrom": {
+    "über 50kW, DC Ladepunkt": {
+     "Abgegebene Energie": 0.54
+    },
+    "max. 50kW, DC Ladepunkt": {
+     "Abgegebene Energie": 0.54
+    }
+   },
+   "Energie Steiermark": {
+    "max. 11kW, AC Ladepunkt": {
+     "Blockierdauer": 0.08,
+     "Abgegebene Energie": 0.66
+    }
+   },
+   "Ionity": {
+    "über 50kW, DC Ladepunkt": {
+     "Abgegebene Energie": 0.74
+    }
+   }
+  },
+  "netze_je_karte": {
+   "2": 4,
+   "6": 4,
+   "3": 2,
+   "9": 2,
+   "4": 1,
+   "5": 1,
+   "7": 1,
+   "10": 1
+  },
+  "kwh_quantile": {
+   "0": 6.82,
+   "0.1": 16.013,
+   "0.25": 27.455,
+   "0.5": 43.38,
+   "0.75": 116.205,
+   "0.9": 165.533,
+   "1": 259.66
+  },
+  "ladevorgaenge_quantile": {
+   "0": 1.0,
+   "0.1": 1.0,
+   "0.25": 1.0,
+   "0.5": 1.0,
+   "0.75": 3.25,
+   "0.9": 5.0,
+   "1": 6.0
+  },
+  "min_je_kwh_quantile": {
+   "0": 0.4912,
+   "0.1": 0.6088,
+   "0.25": 0.9316,
+   "0.5": 3.3866,
+   "0.75": 8.0288,
+   "0.9": 13.5193,
+   "1": 17.415
+  },
+  "blockier_anteil": 0.312,
+  "netto_gesamt": 1719.92
+ }
+}

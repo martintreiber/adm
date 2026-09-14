@@ -1,0 +1,65 @@
+# Suite 4 · Extraktion aus Scans: zwölf Reparaturrechnungen ohne Textebene an ein Vision-Modell.
+# Vorher: python src/run.py && python src/scans_rendern.py   (PNG der ersten Seite je Beleg nach data/interim/scans/)
+# Aufruf aus dem Repo-Root, lokal (die Scans enthalten Privatadressen):
+#   OPENAI_BASE_URL=http://localhost:1234/v1 OPENAI_API_KEY=lm-studio OPENAI_MAX_TOKENS=4096 \
+#   npx promptfoo@latest eval -c evals/extraktion_scans.yaml --providers openai:chat:<vision-modell in LM Studio>
+# Der Prompt ist eine JSON-Chat-Nachricht mit Text und Bild (prompts/extraktion_scan_v1.json); promptfoo liest die PNG-Datei
+# aus der Variable bild und setzt sie als Data-URL (data:image/png;base64,…) ein; im Prompt steht deshalb nur {{bild}}. Die Referenz je Beleg steht in references/reparaturrechnungen.json.
+description: "Felder aus Reparaturrechnungen (Scans)"
+
+providers:
+  - id: openai:chat:qwen/qwen3-vl-8b   # ein Vision-Modell; Name wie in LM Studio angezeigt, oder --providers auf der Kommandozeile
+    config:
+      apiBaseUrl: http://localhost:1234/v1
+      apiKey: lm-studio
+      max_tokens: 4096
+
+prompts:
+  - file://../prompts/extraktion_scan_v2.json   # v1 nahm das Annahmedatum und hängte das Datum an die Rechnungsnummer: 6/12; v2 präzisiert beides: 10/12
+
+defaultTest:
+  options:
+    transform: |
+      try { const all = String(output).match(/\{[^{}]*\}/g); return all ? JSON.parse(all[all.length - 1]) : {}; } catch (e) { return {}; }
+  assert:
+    - type: is-json
+    - type: python
+      value: file://graders/feldvergleich_scan.py
+
+tests:
+  - vars:
+      datei: RR_01.pdf
+      bild: file://../data/interim/scans/RR_01.png
+  - vars:
+      datei: RR_02.pdf
+      bild: file://../data/interim/scans/RR_02.png
+  - vars:
+      datei: RR_03.pdf
+      bild: file://../data/interim/scans/RR_03.png
+  - vars:
+      datei: RR_04.pdf
+      bild: file://../data/interim/scans/RR_04.png
+  - vars:
+      datei: RR_05.pdf
+      bild: file://../data/interim/scans/RR_05.png
+  - vars:
+      datei: RR_06.pdf
+      bild: file://../data/interim/scans/RR_06.png
+  - vars:
+      datei: RR_07.pdf
+      bild: file://../data/interim/scans/RR_07.png
+  - vars:
+      datei: RR_08.pdf
+      bild: file://../data/interim/scans/RR_08.png
+  - vars:
+      datei: RR_09.pdf
+      bild: file://../data/interim/scans/RR_09.png
+  - vars:
+      datei: RR_10.pdf
+      bild: file://../data/interim/scans/RR_10.png
+  - vars:
+      datei: RR_11.pdf
+      bild: file://../data/interim/scans/RR_11.png
+  - vars:
+      datei: RR_12.pdf
+      bild: file://../data/interim/scans/RR_12.png

@@ -1,0 +1,37 @@
+# Suite 1 · Kennzahl, numerisch mit Toleranz.
+# Das Modell soll eine Zahl aus einer Tabelle wiedergeben; die Referenz kommt aus SQL (kennzahl_beispiel.sql),
+# der Wert steht in references/beispiel_kennzahl.json und hier in den vars.
+# Aufruf aus dem Repo-Root: npx promptfoo@latest eval -c evals/promptfooconfig.yaml
+description: "Kennzahl aus Tabelle wiedergeben"
+
+providers:
+  - id: openrouter:google/gemma-4-26b-a4b-it:free   # :free-Modelle rotieren; aktuelle Liste: openrouter.ai/models, Filter "free". Name und Datum ins Log.
+  # Zweites Modell: zweite Zeile. Lokal mit LM Studio (Server gestartet, Modell geladen, Name wie in LM Studio angezeigt):
+  # - id: openai:chat:qwen/qwen3-8b
+  #   config:
+  #     apiBaseUrl: http://localhost:1234/v1
+  #     apiKey: lm-studio
+  # Oder ohne YAML-Änderung von der Kommandozeile: OPENAI_BASE_URL=http://localhost:1234/v1 OPENAI_API_KEY=lm-studio
+  #   npx promptfoo@latest eval -c evals/promptfooconfig.yaml --providers openai:chat:<modellname> --grader openai:chat:<modellname>
+  # Bezahlt, Version gepinnt:
+  # - id: openai:gpt-4o-mini-2024-07-18
+
+prompts:
+  - file://../prompts/kennzahl_v1.md
+
+defaultTest:
+  assert:
+    - type: javascript
+      value: file://graders/zahl.js     # liest die Zahl, vergleicht mit vars.referenz, Toleranz vars.toleranz (Standard 2 %)
+
+tests:
+  - vars:
+      tabelle: file://../data/processed/kennzahl_beispiel.csv
+      kennzeichen: G123AB
+      referenz: 14547.55
+      toleranz: 0.02
+  - vars:
+      tabelle: file://../data/processed/kennzahl_beispiel.csv
+      kennzeichen: W45678C
+      referenz: 3832.23
+      toleranz: 0.02

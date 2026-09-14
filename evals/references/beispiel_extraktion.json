@@ -1,0 +1,24 @@
+[
+  {
+    "eingabe": "Rechnung R-2025-0003, Werkstatt Huber, Kennzeichen G-123AB, Netto 134,67",
+    "erwartet": {
+      "rechnungsnr": "R-2025-0003",
+      "datum": "2025-05-14",
+      "kennzeichen": "G123AB",
+      "netto_eur": 134.67
+    },
+    "quelle": "händisch erfasst aus data/sample/beispiel.csv, Zeile R-2025-0003, 14.09.2026",
+    "unsicherheit": "keine"
+  },
+  {
+    "eingabe": "Rechnung R-2025-0011 (Duplikat), Glas Berger, Kennzeichen W 45678C, Netto 1.506,58",
+    "erwartet": {
+      "rechnungsnr": "R-2025-0011",
+      "datum": "2025-05-10",
+      "kennzeichen": "W45678C",
+      "netto_eur": 1506.58
+    },
+    "quelle": "händisch erfasst aus data/sample/beispiel.csv, Zeile R-2025-0011, 14.09.2026",
+    "unsicherheit": "Duplikat-Vermerk; gilt als Rechnung, nicht als Storno"
+  }
+]

@@ -1,0 +1,99 @@
+<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><title>Poster</title>
+<style>
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #f4f3f0; }
+body { width: 210mm; height: 297mm; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #1a1a1a; font-size: 7.4pt; line-height: 1.32; }
+.page { width: 210mm; height: 297mm; padding: 6mm 8mm 5mm 8mm; display: flex; flex-direction: column; }
+.red { color: #e03e1a; }
+.lbl { font-size: 5.6pt; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 700; color: #444; }
+.lbl.red { color: #e03e1a; }
+.bar { display: flex; justify-content: space-between; border-bottom: 1px solid #c9c7c2; padding-bottom: 2mm; font-size: 5.8pt; letter-spacing: 0.12em; font-weight: 700; text-transform: uppercase; }
+.bar span { margin-right: 7mm; }
+.kicker { margin-top: 3.5mm; font-size: 6.8pt; letter-spacing: 0.14em; font-weight: 700; color: #e03e1a; text-transform: uppercase; }
+.head { display: flex; gap: 6mm; margin-top: 1.5mm; }
+h1 { flex: 1; margin: 0; font-size: 27pt; line-height: 1.02; font-weight: 800; letter-spacing: -0.02em; }
+.meta { width: 62mm; padding-top: 14mm; }
+.meta div { margin-bottom: 2.6mm; }
+.meta b { display: block; font-weight: 400; font-size: 7.6pt; }
+.three { display: grid; grid-template-columns: 1fr 1fr 1fr; margin-top: 4.5mm; border-top: 1px solid #c9c7c2; }
+.three > div { padding: 3mm 5mm 3.5mm 0; border-right: 1px solid #c9c7c2; }
+.three > div:last-child { border-right: 0; padding-left: 5mm; }
+.three > div:nth-child(2) { padding-left: 5mm; }
+.three p { margin: 1.4mm 0 0 0; font-weight: 600; font-size: 7.6pt; }
+.three .plain { font-weight: 400; }
+.three ul { margin: 1.4mm 0 0 0; padding: 0; list-style: none; font-size: 7.6pt; }
+.three li::before { content: "—  "; color: #666; }
+.src { margin-top: 5mm; border-top: 1px solid #c9c7c2; padding-top: 3mm; display: flex; gap: 6mm; align-items: flex-start; }
+.src h2 { margin: 0; font-size: 12.5pt; font-weight: 800; line-height: 1.05; width: 38mm; }
+.src p { margin: 0; flex: 1; font-size: 6.8pt; color: #333; }
+table { width: 100%; border-collapse: collapse; margin-top: 2.5mm; }
+th, td { text-align: left; vertical-align: top; padding: 1.4mm 2mm 1.4mm 0; border-top: 1px solid #dcdad5; font-size: 6.5pt; }
+th { font-weight: 700; font-size: 7.2pt; border-top: 0; }
+td.k, th.k { width: 22mm; font-size: 5.6pt; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 700; color: #444; padding-top: 1.7mm; }
+tr.last td { border-bottom: 1px solid #c9c7c2; }
+.ana { margin-top: 5mm; }
+.ana h2 { margin: 0 0 2mm 0; font-size: 12.5pt; font-weight: 800; }
+.cards { display: grid; grid-template-columns: 1fr 1fr 1fr; border-top: 1px solid #c9c7c2; }
+.card { padding: 3.5mm 4mm 3.5mm 0; border-right: 1px solid #c9c7c2; position: relative; }
+.card:nth-child(2) { padding-left: 4mm; }
+.card:last-child { border-right: 0; padding-left: 4mm; }
+.num { font-size: 26pt; font-weight: 800; color: #e03e1a; line-height: 1; }
+.tag { position: absolute; top: 3.5mm; right: 4mm; border: 1px solid #1a1a1a; font-size: 5.6pt; letter-spacing: 0.12em; font-weight: 700; padding: 0.8mm 1.6mm; }
+.tag.red { background: #e03e1a; border-color: #e03e1a; color: #fff; }
+.card h3 { margin: 2.5mm 0 2mm 0; font-size: 10pt; font-weight: 800; line-height: 1.1; }
+.kv { display: grid; grid-template-columns: 14mm 1fr; gap: 1.2mm 2mm; font-size: 6.5pt; }
+.kv .k { color: #444; }
+.band { margin-top: 5mm; background: #e03e1a; color: #fff; display: grid; grid-template-columns: 1.05fr 1fr 1fr; padding: 3.5mm 5mm 4mm 5mm; gap: 5mm; }
+.band .lbl { color: #fff; opacity: 0.9; }
+.band .big { font-size: 13.5pt; font-weight: 800; line-height: 1.12; margin-top: 2mm; }
+.band p { margin: 1.5mm 0 0 0; font-size: 6.8pt; }
+.foot { margin-top: auto; border-top: 1px solid #c9c7c2; padding-top: 2.5mm; display: grid; grid-template-columns: 26mm repeat(5, 1fr); gap: 3mm; font-size: 6.2pt; }
+.foot b { display: block; font-size: 6.8pt; }
+</style></head><body><div class="page">
+<div class="bar"><div><span>Advanced Data Management · WS 2026</span><span>Deliverable 1 · Pitch</span><span>Gallery Walk 26.9.</span></div><div class="red">Beispielposter zur Orientierung</div></div>
+<div class="kicker">Datenmanagement-Projekt · Flottenmanagement</div>
+<div class="head">
+  <h1>Welche Verträge nachverhandeln, welche Fahrzeuge fallen aus dem Rahmen?</h1>
+  <div class="meta">
+    <div><span class="lbl">Zielpublikum</span><b>Flottenverantwortliche des Kunden</b></div>
+    <div><span class="lbl">Name</span><b>Vorname Nachname</b></div>
+    <div><span class="lbl">Repo</span><b>github.com/…/flotte · Poster: docs/pitch/</b></div>
+  </div>
+</div>
+<div class="three">
+  <div><span class="lbl red">Entscheidung</span><p>Welche Leasingverträge werden vor Ablauf nachverhandelt, und welche Fahrzeuge fallen bei Tanken, Laden und Reparaturen aus dem Rahmen?</p></div>
+  <div><span class="lbl red">Zweck</span><p class="plain">Eine Entscheidungsvorlage mit Zahlen, deren Herkunft bis zum Beleg nachvollziehbar ist: je Vertrag die erwarteten Mehrkilometer, je Fahrzeug die Kosten im Monat, je Reparatur die Felder aus dem Scan. Die Pipeline läuft zweimal mit gleichem Ergebnis.</p></div>
+  <div><span class="lbl">Nicht drin</span><ul><li>Fahrerverhalten</li><li>Routen</li><li>Versicherungsfälle</li></ul></div>
+</div>
+<div class="src"><h2>Datenquellen mit Provenienz</h2><p>Alle Quellen synthetisch, Fahrzeugliste aus den Stammdaten; Kunde, Kennzeichen, Nummern, Namen, Beträge erfunden, geprüft per Abgleich gegen die echten Dateien · Personenbezug wird in Schritt 2 entfernt, Scans laufen nur lokal oder maskiert</p></div>
+<table>
+  <tr><th class="k">Quelle</th><th>Stammdaten</th><th>Tankkarten</th><th>Ladekarten</th><th>Reparaturen</th></tr>
+  <tr><td class="k">Herkunft</td><td>Export des Leasinggebers, synthetisch nachgebaut (generate.py, Seed 42); übernommen nur Struktur und Verteilungen</td><td>Abrechnung des Leasinggebers, März 2025, synthetisch (generate_belege.py, fester Seed); echt sind nur Aggregate: Tankungen je Fahrzeug, Liter- und Preisquantile, Anbietermix, Layout</td><td>Rechnung des Ladenetzbetreibers, Jänner 2025, synthetisch; echt sind Netze, Leistungsklassen, Preise je kWh und Minute, kWh-Quantile, Layout</td><td>Zwölf Werkstattrechnungen, 2024-10 bis 2025-06, synthetisch; echt sind drei Layouts, Feldnamen, typische Positionen, ohne statistische Kalibrierung</td></tr>
+  <tr><td class="k">Format</td><td>CSV, Semikolon, Latin-1, 43 Spalten</td><td>PDF mit Textebene, 27 Seiten</td><td>PDF mit Textebene, 6 Seiten</td><td>PDF-Scans ohne Text, drei Layouts</td></tr>
+  <tr><td class="k">Stand · Zeilen</td><td>30.09.2025 · 253 Fahrzeuge</td><td>24.04.2025 · 245 Positionen</td><td>10.03.2025 · 173 Positionen</td><td>12 Belege</td></tr>
+  <tr class="last"><td class="k">Personenbezug</td><td>Fahrername, Bemerkung</td><td>Fahrername je Karte, Kostenstelle</td><td>Fahrername hinter der Kartennummer</td><td>Fahrername, Privatadresse, Unterschrift</td></tr>
+</table>
+<div class="ana"><h2>Drei Analysen</h2>
+<div class="cards">
+  <div class="card"><div class="num">1</div><span class="tag">SQL</span><h3>Mehrkilometer-Prognose je Vertrag</h3>
+    <div class="kv"><span class="k">Daten</span><span>Stammdaten und Kilometerstände (zehn Stichtage je Fahrzeug)</span><span class="k">Abfrage</span><span>kennzahl_mehrkilometer.sql</span><span class="k">Ergebnis</span><span>Erwartete Kilometer zum Vertragsende gegen vereinbarte Laufleistung, je Vertrag</span><span class="k">Referenz</span><span>Drei Verträge von Hand aus Stichtagen und Vertrag gerechnet, bevor die Abfrage läuft; Toleranz ± 2 %</span></div></div>
+  <div class="card"><div class="num">2</div><span class="tag">SQL</span><h3>Tank- und Ladekosten je Fahrzeug im Monat</h3>
+    <div class="kv"><span class="k">Daten</span><span>Belege des Leasinggebers (Tankkarten) und des Ladenetzbetreibers (Ladekarten)</span><span class="k">Abfrage</span><span>kennzahl_tankkosten.sql, kennzahl_ladekosten.sql</span><span class="k">Ergebnis</span><span>Summe je Fahrzeug und Monat, Ausreißer gegen den Flottenschnitt</span><span class="k">Referenz</span><span>Die Summenseiten der Belege selbst, auf den Cent</span></div></div>
+  <div class="card"><div class="num">3</div><span class="tag red">Prompt</span><h3>Felder aus Reparaturrechnungen</h3>
+    <div class="kv"><span class="k">Daten</span><span>Zwölf Scans ohne Textebene in drei Layouts</span><span class="k">Prompt</span><span>prompts/extraktion_v1.md, versioniert im CHANGELOG</span><span class="k">Ergebnis</span><span>Rechnungsnr, Datum, Kennzeichen, Netto, Brutto je Beleg, in die Tabelle rechnung</span><span class="k">Referenz</span><span>Alle zwölf Belege erfasst, bevor das Modell läuft; Feldvergleich exakt, Beträge ± 0,005</span></div></div>
+</div></div>
+<div class="band">
+  <div><span class="lbl">LLM-Arbeit</span><div class="big">Berechenbares wird berechnet. Das Modell liest nur, was keine Tabelle ist.</div></div>
+  <div><span class="lbl">Was das Modell tut</span><p>Liest die zwölf Reparatur-Scans und gibt fünf Felder je Beleg zurück (Analyse 3).</p><p>Schreibt den Pipeline-Code in pandas und SQL; jede Entscheidung darin steht im Entscheidungslog, mit Alternative.</p><p>Analysen 1 und 2 rechnet SQL, nicht der Prompt.</p></div>
+  <div><span class="lbl">Woran wir erkennen, dass es recht hat</span><p>Die Referenz existiert, bevor das Modell läuft. promptfoo-Suite gegen zwölf Belege, Grader feldvergleich.py, Modell gepinnt mit Datum.</p><p>Geplante Prüfungen: Netto + MwSt gegen den Endbetrag, Duplikate über die Rechnungsnummer, Kennzeichen gegen die Stammdaten.</p></div>
+</div>
+<div class="foot">
+  <div class="lbl">Datenmodell<br>SQLite, 5<br>Tabellen</div>
+  <div><b>fahrzeug</b>PK objektnr · 250</div>
+  <div><b>kilometerstand</b>PK objektnr, stichtag · 1035</div>
+  <div><b>tankung</b>FK objektnr · 245</div>
+  <div><b>ladung</b>FK objektnr über ladekarte_nr · 41</div>
+  <div><b>rechnung</b>PK rechnungsnr, Index kennzeichen · 21</div>
+</div>
+</div></body></html>

@@ -1,0 +1,3 @@
+# Was wir nicht wissen, und Lessons
+
+Nicht gewusst: für 7 Verträge ist die Laufzeit zu kurz für eine Prognose, 25 aktive Fahrzeuge haben keinen Stand zum 30.09.2025, die Prognose nimmt für sie den Stand davor; Tank- und Ladebelege stammen aus verschiedenen Monaten; die Reparaturen sind noch nicht in der Datenbank. Risiken: ein rückläufiger Kilometerstand kann ein falsch erfasster Stichtag sein, dann ist die Prognose für dieses Fahrzeug falsch; die Ersatzfahrzeug-Rechnung landet bei niemandem. Lessons: Objektnummer vor Kennzeichen; Zählen, was die Bereinigung ändert, bevor man rechnet; die Referenz vor dem Modell.
