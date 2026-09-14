@@ -10,7 +10,7 @@ Gerüst: `docs/projektdokumentation/<datei>` · Beispiel: `docs/projektdokumenta
 
 | Datei | Inhalt | Abgabe | Fertig wenn |
 |---|---|---|---|
-| `docs/projektdokumentation/00_auftrag.md` | Adressat (Rolle), Entscheidung, drei Analysen mit Werkzeug (SQL, Prompt, beides), was nicht drin ist, Änderungen seit dem Pitch mit Datum | 24.9. (Pitch), dann laufend | Der Drei-Sätze-Test klappt: Wer entscheidet was, mit welchen Daten, woran erkennen wir, dass das LLM recht hat |
+| `docs/projektdokumentation/00_auftrag.md` | Adressat (Rolle), Entscheidung, drei Analysen mit Werkzeug (SQL, Prompt, beides), was nicht drin ist, Änderungen seit dem Pitch mit Datum | 26.9. (Pitch), dann laufend | Der Drei-Sätze-Test klappt: Wer entscheidet was, mit welchen Daten, woran erkennen wir, dass das LLM recht hat |
 | `docs/projektdokumentation/01_entscheidungslog.md` | Eine Zeile je Entscheidung: Datum, Entscheidung, Alternative, Warum, Folge (Datei, Commit). Pflicht: Programm oder Prompt je Aufgabe, jeder Datenausschluss, PII-Grenze, Modellwahl, Scope-Änderungen | laufend, ab dem ersten Commit | Jede Zeile hat eine Alternative; die Zeilen passen zur Commit-Historie |
 | `docs/projektdokumentation/02_schritt1_datenzugriff.md` | Quellentabelle (Herkunft, Format, Abrufdatum, Freigabe, Zeilen, was fehlt), verworfene Kandidaten, Personenbezug, bei synthetischen Daten Weg, Seed, Kalibrierung | `termin3` | Zu jeder Datei in `data/raw/<datum>/` steht, woher sie kommt und was drin ist |
 | `docs/projektdokumentation/03_schritt2_normalisieren.md` | Zahlen aus dem Pipeline-Lauf je Quelle (gelesen, geändert, Duplikate, fehlend, PII-Spalten), Qualitätsbericht mit sechs Fragen und Konsequenz, PII-Entscheidung mit Stelle im Code | `termin3` | Jede Zahl stammt aus der Ausgabe von `python src/run.py`; jeder Befund hat eine Konsequenz |
@@ -40,7 +40,7 @@ Die Abgabe ist der Stand des Repos beim Tag. Was hier nicht steht, wird nicht be
 | Datenbank | `data/processed/<projekt>.sqlite` | von der Pipeline erzeugt, committet, ohne Personenspalten |
 | Abfragen | `src/sql/kennzahl_<analyse>.sql` | eine Abfrage je numerische Analyse; Ergebnis als CSV in `data/processed/` |
 | Referenzantworten | `evals/references/<analyse>.json` oder `.csv` | je Fall Eingabe, erwartete Antwort, Herkunft (wer, wann), Unsicherheit; mindestens acht Fälle für Extraktion oder Klassifikation |
-| Test | `tests/test_pipeline.py` | grün; angepasst, wenn ihr Tabellen umbenennt |
+| Test | `tests/test_pipeline.py` | grün; der Datenbankname steht in `src/config.py` (`PROJEKT`), der Test prüft alle Tabellen und den zweiten Lauf |
 | Projektdokumentation | `00` bis `05` im Ordner oben | wie in der Tabelle |
 | Betriebshandbuch, Entwurf | `docs/betrieb.md` | Starten, neue Daten, bekannte Schwächen; halbe Seite |
 
