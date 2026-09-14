@@ -23,13 +23,13 @@ Gerüst: `docs/projektdokumentation/<datei>` · Beispiel: `docs/projektdokumenta
 
 Die Abgabe ist der Stand des Repos beim Tag. Was hier nicht steht, wird nicht bewertet.
 
-**Deliverable 1 · Pitch (Gallery Walk 26.9.; Repo bis Do 24.9.)**
+**Deliverable 1 · Pitch (Gallery Walk Sa 26.9.; alles Folgende bis dahin, früher ablegen geht, muss aber nicht)**
 
 | Was | Wo | Erwarteter Inhalt |
 |---|---|---|
 | Poster | `docs/pitch/<name>.pdf` | One-Pager A3 oder A2: Datenquelle mit Provenienz, drei Analysen, Zielpublikum und Entscheidung, Zweck, LLM-Arbeit. Beispiel für die Testdaten: `docs/pitch/Poster.html` (A4; im Browser öffnen und als PDF drucken); löschen, wenn euer eigenes da ist |
 | Auftrag | `docs/projektdokumentation/00_auftrag.md` | siehe oben |
-| Rohdaten | `data/raw/<datum>/` (lokal, nie im Repo) | bis So 20.9. vorhanden; im Repo steht nur, was dort liegt (`02_schritt1_datenzugriff.md`) |
+| Rohdaten | `data/raw/<datum>/` (lokal, nie im Repo) | liegen vor; im Repo steht nur, was dort liegt (`02_schritt1_datenzugriff.md`). Wer bis zum 26.9. keine hat, wechselt die Quelle und sagt es beim Pitch |
 
 **Deliverable 2 · Datenpipeline (Tag `termin3`, Fr 9.10., 23:59)**
 
