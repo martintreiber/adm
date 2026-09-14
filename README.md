@@ -72,7 +72,7 @@ Was ihr verstehen müsst, in sechs Begriffen: Eine Tabelle hat typisierte Spalte
 
 ## Git in sechs Momenten
 
-1. **Repo anlegen:** oben rechts „Use this template" → „Create a new repository", Name vergeben, **Private**. Unter *Settings → Collaborators* den Lektor einladen. Dann `git clone <eure-URL>`.
+1. **Repo anlegen:** auf github.com/martintreiber/adm oben rechts „Use this template" → „Create a new repository", Name vergeben, **Private**. Unter *Settings → Collaborators* den Lektor einladen. Dann `git clone <eure-URL>`.
 2. **Was nie ins Repo darf:** `data/raw/`, `data/interim/`, `.env`, `.venv/` sind in `.gitignore`. Rohdaten und Schlüssel bleiben lokal. GitHub lehnt Dateien über 100 MB ab.
 3. **Jede Arbeitssitzung sichern:** `git add . && git commit -m "was und warum" && git push`. Die Commit-Message ist Teil der Dokumentation; wenn das LLM beteiligt war, steht das drin.
 4. **Abgabe ist ein Tag:** `git tag termin3 && git push --tags`. Ohne `--tags` existiert der Tag nur bei euch. Prüfen unter *Tags* auf GitHub. Für Deliverable 3: `termin4`.
